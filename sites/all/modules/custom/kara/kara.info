@@ -1,0 +1,8 @@
+name = Kara's module
+description = Provides a really neat widget for your site's sidebar.
+core = 7.x
+package = Views
+dependencies[] = views:views
+dependencies[] = panels:panels
+files[] = tests/example.test
+configure = admin/config/content/example

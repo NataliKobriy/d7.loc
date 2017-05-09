@@ -1,0 +1,4 @@
+name = My Form
+description = Form Api
+core = 7.x
+package = Other

@@ -1,0 +1,89 @@
+<?php
+function mytheming_menu(){
+    $items = array();
+    $items['mytheming'] = array(
+        'title' => 'Page "My Theming"',
+        'description' => 'Page themes implement the theming\'s functions',
+        'page callback' => 'mytheming_page_content',
+        'access callback' => TRUE,
+        'expanded' => TRUE,
+        'type' => MENU_NORMAL_ITEM,
+        'menu_name' => 'main-menu',
+    );
+    return $items; 
+}
+function mytheming_page_content () {
+    $items = array('item 1', 'item 2', 'item 3');
+    $title = t('Item List of "My theming"');
+    $type = 'ul';
+    $attributes = array(
+        'class' => 'items',
+    );
+    print theme_item_list(array('items' => $items, 'title' => $title, 'type' => $type, 'attributes' => $attributes));
+
+
+    $colgroup = array(
+        array(
+            array(
+                'class' => array('table-colgroup'),
+                'align' => 'center',
+            ),
+        ),
+    );
+    $variables = array(
+        'header' => array(
+            0 => 'Header 1',
+            1 => 'Header 2',
+        ),
+        'rows' => array(
+            0 => array('Row 1 Header 1', 'Row 1 Header 2'),
+            1 => array('Row 2 Header 1', 'Row 2 Header 2'),
+        ),
+        'attributes' => array(
+            'class' => array('table'),
+        ),
+        'caption' => 'Example table',
+        'colgroups' => $colgroup,
+        'sticky' => true,
+        'empty' => 'Data not found',
+    );
+
+   print theme_table($variables);
+    drupal_add_js('/var/www/d7.loc/misc/form.js');
+    drupal_add_js('/var/www/d7.loc/misc/collapse.js');
+
+   print theme_fieldset(array('element' => array(
+            '#title'       => t('Help'),
+            '#children'    => t('This is main text in fieldset!'),
+            '#collapsible' => true,
+            '#collapsed'   => true,
+            '#attributes'  => array(
+                'class' => array('collapsible', 'collapsed')
+            ),
+        )
+        )
+    );
+    $image = array(
+        'path' => '../../../5.jpeg',
+        'style_name' => 'my_custom_image_style',
+        'alt' => 'Alternate Text',
+        'title' => 'Title Text',
+    );
+    print theme_image_style($image);
+    return theme('page_mytheming', array('param' => 'Hello, world!'));
+}
+
+function mytheming_theme() {
+    $themes = array (
+        'page_mytheming' => array(
+            'template' => 'page--mytheming',
+            'arguments' => array(
+                'param' => Null,
+            ),
+        ),
+    );
+    return $themes;
+}
+//function theme_page_mytheming ($variables) {
+//   return '<h2><strong>'. $variables['param'] . '</strong></h2>';
+//}

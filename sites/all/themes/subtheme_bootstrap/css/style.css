@@ -9844,7 +9844,7 @@ header#navbar div.container {
   align-items: center;
 }
 
-/* line 907, ../scss/_overrides.scss */
+/* line 1765, ../scss/_overrides.scss */
 .container {
   width: 100%;
   margin: 0;
@@ -9852,317 +9852,320 @@ header#navbar div.container {
   padding-right: 0.83em;
 }
 
+/**
+ * Header styles.
+ */
 @media (max-width: 480px) {
-  /* line 916, ../scss/_overrides.scss */
+  /* line 1775, ../scss/_overrides.scss */
   div.panel-panel.panel-col-top {
     background-color: white;
     background: linear-gradient(to top, #f2f2f2, white);
     height: 6em;
   }
-  /* line 920, ../scss/_overrides.scss */
+  /* line 1779, ../scss/_overrides.scss */
   div.panel-panel.panel-col-top div.inside:after {
     content: "interior";
     position: absolute;
     top: 0;
     right: 0;
-    opacity: 0.05;
+    opacity: 0.08;
     font-size: 4.5em;
     padding-right: 0.3em;
   }
 
-  /* line 931, ../scss/_overrides.scss */
+  /* line 1789, ../scss/_overrides.scss */
   div.panel-pane.pane-page-site-name {
     float: left;
   }
-  /* line 933, ../scss/_overrides.scss */
+  /* line 1791, ../scss/_overrides.scss */
   div.panel-pane.pane-page-site-name div.pane-content {
     font-size: 2.5em;
     color: #809c13;
   }
   @font-face {
-    /* line 933, ../scss/_overrides.scss */
+    /* line 1791, ../scss/_overrides.scss */
     div.panel-pane.pane-page-site-name div.pane-content {
       font-family: "Cyclo Trial";
       src: url(../bootstrap/assets/fonts/bootstrap/Cyclo_Trial/Cyclo_Trial.svg);
     }
   }
-  /* line 942, ../scss/_overrides.scss */
+  /* line 1800, ../scss/_overrides.scss */
   div.panel-pane.pane-page-slogan {
     position: relative;
     left: -7.5em;
     top: 3em;
   }
-  /* line 946, ../scss/_overrides.scss */
+  /* line 1804, ../scss/_overrides.scss */
   div.panel-pane.pane-page-slogan div.pane-content {
     font-size: 0.8em;
     color: #cccccc;
   }
 
-  /* line 951, ../scss/_overrides.scss */
+  /* line 1809, ../scss/_overrides.scss */
   div.panel-pane.pane-block.pane-block-1 {
     max-width: 50%;
     float: right;
     font-family: "Cyclo Trial";
   }
-  /* line 954, ../scss/_overrides.scss */
+  /* line 1812, ../scss/_overrides.scss */
   div.panel-pane.pane-block.pane-block-1 div.pane-content p {
     margin: 0 0 0px;
     font-size: 0.7em;
   }
 }
 @media (min-width: 480px) and (max-width: 768px) {
-  /* line 963, ../scss/_overrides.scss */
+  /* line 1820, ../scss/_overrides.scss */
   div.panel-panel.panel-col-top {
     background-color: white;
     background: linear-gradient(to top, #f2f2f2, white);
     height: 6em;
   }
-  /* line 967, ../scss/_overrides.scss */
+  /* line 1824, ../scss/_overrides.scss */
   div.panel-panel.panel-col-top div.inside:after {
     content: "interior";
     position: absolute;
     top: -0.1em;
     right: 0;
-    opacity: 0.05;
+    opacity: 0.08;
     font-size: 6em;
     padding-right: 0.2em;
   }
 
-  /* line 979, ../scss/_overrides.scss */
+  /* line 1834, ../scss/_overrides.scss */
   div.panel-pane.pane-page-site-name {
     float: left;
   }
-  /* line 981, ../scss/_overrides.scss */
+  /* line 1836, ../scss/_overrides.scss */
   div.panel-pane.pane-page-site-name div.pane-content {
     font-size: 3.125em;
     color: #809c13;
   }
   @font-face {
-    /* line 981, ../scss/_overrides.scss */
+    /* line 1836, ../scss/_overrides.scss */
     div.panel-pane.pane-page-site-name div.pane-content {
       font-family: "Cyclo Trial";
       src: url(../bootstrap/assets/fonts/bootstrap/Cyclo_Trial/Cyclo_Trial.svg);
     }
   }
-  /* line 990, ../scss/_overrides.scss */
+  /* line 1845, ../scss/_overrides.scss */
   div.panel-pane.pane-page-slogan {
     position: relative;
     left: -9.6em;
     top: 3.4em;
   }
-  /* line 994, ../scss/_overrides.scss */
+  /* line 1849, ../scss/_overrides.scss */
   div.panel-pane.pane-page-slogan div.pane-content {
     font-size: 1.2em;
     color: #cccccc;
   }
 
-  /* line 999, ../scss/_overrides.scss */
+  /* line 1854, ../scss/_overrides.scss */
   div.panel-pane.pane-block.pane-block-1 {
     float: right;
     font-family: "Cyclo Trial";
   }
-  /* line 1001, ../scss/_overrides.scss */
+  /* line 1856, ../scss/_overrides.scss */
   div.panel-pane.pane-block.pane-block-1 div.pane-content p {
     margin: 0 0 0px;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 1009, ../scss/_overrides.scss */
+  /* line 1863, ../scss/_overrides.scss */
   div.panel-panel.panel-col-top {
     background-color: white;
     background: linear-gradient(to top, #f2f2f2, white);
     height: 6em;
   }
-  /* line 1013, ../scss/_overrides.scss */
+  /* line 1867, ../scss/_overrides.scss */
   div.panel-panel.panel-col-top div.inside:after {
     content: "interior";
     position: absolute;
     top: -0.5em;
     right: 0;
-    opacity: 0.05;
+    opacity: 0.08;
     font-size: 10.5em;
     padding-right: 0.1em;
   }
 
-  /* line 1024, ../scss/_overrides.scss */
+  /* line 1877, ../scss/_overrides.scss */
   div.panel-pane.pane-page-site-name {
     padding-left: 30px;
     float: left;
   }
-  /* line 1027, ../scss/_overrides.scss */
+  /* line 1880, ../scss/_overrides.scss */
   div.panel-pane.pane-page-site-name div.pane-content {
     font-size: 3.125em;
     color: #809c13;
   }
   @font-face {
-    /* line 1027, ../scss/_overrides.scss */
+    /* line 1880, ../scss/_overrides.scss */
     div.panel-pane.pane-page-site-name div.pane-content {
       font-family: "Cyclo Trial";
       src: url(../bootstrap/assets/fonts/bootstrap/Cyclo_Trial/Cyclo_Trial.svg);
     }
   }
-  /* line 1036, ../scss/_overrides.scss */
+  /* line 1889, ../scss/_overrides.scss */
   div.panel-pane.pane-page-slogan {
     position: relative;
     left: -9.6em;
     top: 3.4em;
   }
-  /* line 1040, ../scss/_overrides.scss */
+  /* line 1893, ../scss/_overrides.scss */
   div.panel-pane.pane-page-slogan div.pane-content {
     font-size: 1.2em;
     color: #cccccc;
   }
 
-  /* line 1045, ../scss/_overrides.scss */
+  /* line 1898, ../scss/_overrides.scss */
   div.panel-pane.pane-block.pane-block-1 {
     float: right;
     padding-right: 30px;
     font-family: "Cyclo Trial";
   }
-  /* line 1048, ../scss/_overrides.scss */
+  /* line 1901, ../scss/_overrides.scss */
   div.panel-pane.pane-block.pane-block-1 div.pane-content p {
     margin: 0 0 0px;
   }
 }
 @media screen and (min-width: 992px) {
-  /* line 1055, ../scss/_overrides.scss */
+  /* line 1908, ../scss/_overrides.scss */
   div.panel-panel.panel-col-top {
     background-color: white;
     background: linear-gradient(to top, #f2f2f2, white);
     height: 6em;
   }
-  /* line 1059, ../scss/_overrides.scss */
+  /* line 1912, ../scss/_overrides.scss */
   div.panel-panel.panel-col-top div.inside:after {
     content: "interior";
     position: absolute;
     top: -0.5em;
     right: 0;
-    opacity: 0.05;
+    opacity: 0.08;
     font-size: 10.5em;
     padding-right: 0.1em;
   }
 
-  /* line 1069, ../scss/_overrides.scss */
+  /* line 1922, ../scss/_overrides.scss */
   div.panel-pane.pane-page-site-name {
     float: left;
   }
-  /* line 1071, ../scss/_overrides.scss */
+  /* line 1924, ../scss/_overrides.scss */
   div.panel-pane.pane-page-site-name div.pane-content {
     font-size: 3.125em;
     color: #809c13;
   }
   @font-face {
-    /* line 1071, ../scss/_overrides.scss */
+    /* line 1924, ../scss/_overrides.scss */
     div.panel-pane.pane-page-site-name div.pane-content {
       font-family: "Cyclo Trial";
       src: url(../bootstrap/assets/fonts/bootstrap/Cyclo_Trial/Cyclo_Trial.svg);
     }
   }
-  /* line 1080, ../scss/_overrides.scss */
+  /* line 1933, ../scss/_overrides.scss */
   div.panel-pane.pane-page-slogan {
     position: relative;
     left: -9.6em;
     top: 3.4em;
   }
-  /* line 1084, ../scss/_overrides.scss */
+  /* line 1937, ../scss/_overrides.scss */
   div.panel-pane.pane-page-slogan div.pane-content {
     font-size: 1.2em;
     color: #cccccc;
   }
 
-  /* line 1089, ../scss/_overrides.scss */
+  /* line 1942, ../scss/_overrides.scss */
   div.panel-pane.pane-block.pane-block-1 {
     float: right;
     padding-right: 30px;
     font-family: "Cyclo Trial";
   }
-  /* line 1092, ../scss/_overrides.scss */
+  /* line 1945, ../scss/_overrides.scss */
   div.panel-pane.pane-block.pane-block-1 div.pane-content p {
     margin: 0 0 0px;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 1099, ../scss/_overrides.scss */
+  /* line 1952, ../scss/_overrides.scss */
   div.panel-panel.panel-col-top {
     background-color: white;
     background: linear-gradient(to top, #f2f2f2, white);
     height: 6em;
   }
-  /* line 1103, ../scss/_overrides.scss */
+  /* line 1956, ../scss/_overrides.scss */
   div.panel-panel.panel-col-top div.inside:after {
     content: "interior";
     position: absolute;
     top: -0.5em;
     right: 0;
-    opacity: 0.05;
+    opacity: 0.08;
     font-size: 10.5em;
     padding-right: 0.1em;
   }
 
-  /* line 1114, ../scss/_overrides.scss */
+  /* line 1966, ../scss/_overrides.scss */
   div.panel-pane.pane-page-site-name {
     float: left;
     padding-left: 30px;
   }
-  /* line 1117, ../scss/_overrides.scss */
+  /* line 1969, ../scss/_overrides.scss */
   div.panel-pane.pane-page-site-name div.pane-content {
     font-size: 3.125em;
     color: #809c13;
     font-weight: bold;
   }
   @font-face {
-    /* line 1117, ../scss/_overrides.scss */
+    /* line 1969, ../scss/_overrides.scss */
     div.panel-pane.pane-page-site-name div.pane-content {
       font-family: "Cyclo Trial";
       src: url(../bootstrap/assets/fonts/bootstrap/Cyclo_Trial/Cyclo_Trial.svg);
     }
   }
-  /* line 1127, ../scss/_overrides.scss */
+  /* line 1979, ../scss/_overrides.scss */
   div.panel-pane.pane-page-slogan {
     position: relative;
     left: -10.6em;
     top: 3.4em;
   }
-  /* line 1131, ../scss/_overrides.scss */
+  /* line 1983, ../scss/_overrides.scss */
   div.panel-pane.pane-page-slogan div.pane-content {
     font-size: 1.2em;
     color: #cccccc;
   }
 
-  /* line 1136, ../scss/_overrides.scss */
+  /* line 1988, ../scss/_overrides.scss */
   div.panel-pane.pane-block.pane-block-1 {
     float: right;
     padding-right: 30px;
     font-family: "Cyclo Trial";
   }
-  /* line 1139, ../scss/_overrides.scss */
+  /* line 1991, ../scss/_overrides.scss */
   div.panel-pane.pane-block.pane-block-1 div.pane-content p {
     margin: 0 0 0px;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 1146, ../scss/_overrides.scss */
+  /* line 1998, ../scss/_overrides.scss */
   ul.menu.nav, ul.menu.nav li {
     margin: 0;
     padding: 0;
   }
 
-  /* line 1150, ../scss/_overrides.scss */
+  /* line 2002, ../scss/_overrides.scss */
   ul.menu.nav {
     background: #f2f2f2;
   }
-  /* line 1152, ../scss/_overrides.scss */
+  /* line 2004, ../scss/_overrides.scss */
   ul.menu.nav li {
     display: inline-block;
     text-align: center;
   }
-  /* line 1155, ../scss/_overrides.scss */
+  /* line 2007, ../scss/_overrides.scss */
   ul.menu.nav li .active {
     background: #809c13;
     position: relative;
     color: #fff;
   }
-  /* line 1160, ../scss/_overrides.scss */
+  /* line 2012, ../scss/_overrides.scss */
   ul.menu.nav li .active:after {
     content: '';
     position: absolute;
@@ -10171,7 +10174,7 @@ header#navbar div.container {
     border: 10px solid transparent;
     border-top: 10px solid #809c13;
   }
-  /* line 1169, ../scss/_overrides.scss */
+  /* line 2021, ../scss/_overrides.scss */
   ul.menu.nav a {
     display: block;
     padding: 5px 15px;
@@ -10184,16 +10187,19 @@ header#navbar div.container {
     font-weight: bold;
   }
 }
-@media screen and (max-width: 767px) {
-  /* line 1183, ../scss/_overrides.scss */
+/**
+ * Menu styles.
+ */
+@media only screen and (max-width: 520px) {
+  /* line 2038, ../scss/_overrides.scss */
   div.contextual-links-region.panel-pane.pane-block.pane-system-main-menu {
     font-size: 1em;
   }
 
-  /* line 1186, ../scss/_overrides.scss */
+  /* line 2041, ../scss/_overrides.scss */
   ul.menu.nav {
     position: absolute;
-    top: 8em;
+    margin-top: 0;
     left: -10.4em;
     width: 1em;
     height: 100%;
@@ -10203,27 +10209,21 @@ header#navbar div.container {
     transition: left 1s ease-out 0.5s;
     -webkit-transition: left 1s ease-out 0.5s;
   }
-  @-moz-document url-prefix() {
-    /* line 1192, ../scss/_overrides.scss */
-    ul.menu.nav ul.menu.nav {
-      left: -9em;
-      top: 0;
-    }
-  }
-  /* line 1205, ../scss/_overrides.scss */
+
+  /* line 2053, ../scss/_overrides.scss */
   li a {
     width: 10em;
     background-color: white;
   }
 
-  /* line 1209, ../scss/_overrides.scss */
+  /* line 2057, ../scss/_overrides.scss */
   .active {
     background: #809c13;
     position: relative;
     color: #fff;
   }
 
-  /* line 1214, ../scss/_overrides.scss */
+  /* line 2062, ../scss/_overrides.scss */
   .active:after {
     content: '';
     position: absolute;
@@ -10233,26 +10233,98 @@ header#navbar div.container {
     border-left: 1em solid #809c13;
   }
 
-  /* line 1222, ../scss/_overrides.scss */
+  /* line 2070, ../scss/_overrides.scss */
   ul.menu.nav:hover {
     left: -0.5em;
     opacity: 10;
   }
-  /* line 1225, ../scss/_overrides.scss */
+  /* line 2073, ../scss/_overrides.scss */
   ul.menu.nav:hover li {
     background-color: white;
   }
-  /* line 1228, ../scss/_overrides.scss */
+  /* line 2076, ../scss/_overrides.scss */
   ul.menu.nav:hover a {
     width: 10em;
   }
-  /* line 1231, ../scss/_overrides.scss */
+  /* line 2079, ../scss/_overrides.scss */
   ul.menu.nav:hover .active {
     background: #809c13;
     position: relative;
     color: #fff;
   }
-  /* line 1236, ../scss/_overrides.scss */
+  /* line 2084, ../scss/_overrides.scss */
+  ul.menu.nav:hover li.active::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10em;
+    border: 1.45em solid transparent;
+    border-left: 1em solid #809c13;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 2095, ../scss/_overrides.scss */
+  div.contextual-links-region.panel-pane.pane-block.pane-system-main-menu {
+    font-size: 1em;
+  }
+
+  /* line 2098, ../scss/_overrides.scss */
+  ul.menu.nav {
+    position: absolute;
+    margin-top: 0;
+    left: -10.4em;
+    width: 1em;
+    height: 100%;
+    z-index: 10;
+    overflow: visible;
+    opacity: 0.8;
+    transition: left 1s ease-out 0.5s;
+    -webkit-transition: left 1s ease-out 0.5s;
+  }
+
+  /* line 2110, ../scss/_overrides.scss */
+  li a {
+    width: 10em;
+    background-color: white;
+  }
+
+  /* line 2114, ../scss/_overrides.scss */
+  .active {
+    background: #809c13;
+    position: relative;
+    color: #fff;
+  }
+
+  /* line 2119, ../scss/_overrides.scss */
+  .active:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    border: 1.45em solid transparent;
+    border-left: 1em solid #809c13;
+  }
+
+  /* line 2127, ../scss/_overrides.scss */
+  ul.menu.nav:hover {
+    left: -0.5em;
+    opacity: 10;
+  }
+  /* line 2130, ../scss/_overrides.scss */
+  ul.menu.nav:hover li {
+    background-color: white;
+  }
+  /* line 2133, ../scss/_overrides.scss */
+  ul.menu.nav:hover a {
+    width: 10em;
+  }
+  /* line 2136, ../scss/_overrides.scss */
+  ul.menu.nav:hover .active {
+    background: #809c13;
+    position: relative;
+    color: #fff;
+  }
+  /* line 2141, ../scss/_overrides.scss */
   ul.menu.nav:hover li.active::after {
     content: '';
     position: absolute;
@@ -10263,35 +10335,35 @@ header#navbar div.container {
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 1248, ../scss/_overrides.scss */
+  /* line 2152, ../scss/_overrides.scss */
   ul.menu.nav, ul.menu.nav li {
     margin: 0;
     padding: 0;
   }
 
-  /* line 1252, ../scss/_overrides.scss */
+  /* line 2156, ../scss/_overrides.scss */
   ul.menu.nav {
     background: #f2f2f2;
   }
-  /* line 1254, ../scss/_overrides.scss */
+  /* line 2158, ../scss/_overrides.scss */
   ul.menu.nav li {
     display: inline-block;
     text-align: center;
   }
-  /* line 1257, ../scss/_overrides.scss */
+  /* line 2161, ../scss/_overrides.scss */
   ul.menu.nav li .active {
     background: #809c13;
     position: relative;
     color: #fff;
   }
-  /* line 1262, ../scss/_overrides.scss */
+  /* line 2166, ../scss/_overrides.scss */
   ul.menu.nav li .active:after {
     content: '';
     position: absolute;
     left: 40%;
     bottom: -1.4em;
   }
-  /* line 1271, ../scss/_overrides.scss */
+  /* line 2173, ../scss/_overrides.scss */
   ul.menu.nav a {
     display: block;
     padding: 5px 15px;
@@ -10305,28 +10377,28 @@ header#navbar div.container {
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 1285, ../scss/_overrides.scss */
+  /* line 2187, ../scss/_overrides.scss */
   ul.menu.nav, ul.menu.nav li {
     margin: 0;
     padding: 0;
   }
 
-  /* line 1289, ../scss/_overrides.scss */
+  /* line 2191, ../scss/_overrides.scss */
   ul.menu.nav {
     background: #f2f2f2;
   }
-  /* line 1291, ../scss/_overrides.scss */
+  /* line 2193, ../scss/_overrides.scss */
   ul.menu.nav li {
     display: inline-block;
     text-align: center;
   }
-  /* line 1294, ../scss/_overrides.scss */
+  /* line 2196, ../scss/_overrides.scss */
   ul.menu.nav li .active {
     background: #809c13;
     position: relative;
     color: #fff;
   }
-  /* line 1299, ../scss/_overrides.scss */
+  /* line 2201, ../scss/_overrides.scss */
   ul.menu.nav li .active:after {
     content: '';
     position: absolute;
@@ -10335,7 +10407,7 @@ header#navbar div.container {
     border: 10px solid transparent;
     border-top: 10px solid #809c13;
   }
-  /* line 1308, ../scss/_overrides.scss */
+  /* line 2210, ../scss/_overrides.scss */
   ul.menu.nav a {
     display: block;
     padding: 5px 15px;
@@ -10348,14 +10420,17 @@ header#navbar div.container {
     font-weight: bold;
   }
 }
-/* line 1321, ../scss/_overrides.scss */
+/**
+ * Background image styles.
+ */
+/* line 2226, ../scss/_overrides.scss */
 div.panel-pane.pane-views.pane-background-image {
   display: flex;
   justify-content: center;
 }
 
 @media only screen and (max-width: 520px) {
-  /* line 1328, ../scss/_overrides.scss */
+  /* line 2232, ../scss/_overrides.scss */
   div.panel-pane.pane-views.pane-background-image .img-responsive {
     display: block;
     max-width: 100%;
@@ -10363,7 +10438,7 @@ div.panel-pane.pane-views.pane-background-image {
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 1348, ../scss/_overrides.scss */
+  /* line 2241, ../scss/_overrides.scss */
   div.panel-pane.pane-views.pane-background-image .img-responsive {
     display: block;
     max-width: 100%;
@@ -10371,7 +10446,7 @@ div.panel-pane.pane-views.pane-background-image {
   }
 }
 @media screen and (min-width: 992px) {
-  /* line 1357, ../scss/_overrides.scss */
+  /* line 2250, ../scss/_overrides.scss */
   div.panel-pane.pane-views.pane-background-image .img-responsive {
     display: block;
     max-width: 100%;
@@ -10379,23 +10454,31 @@ div.panel-pane.pane-views.pane-background-image {
   }
 }
 @media only screen and (min-width: 1200px) {
-  /* line 1366, ../scss/_overrides.scss */
+  /* line 2259, ../scss/_overrides.scss */
   div.panel-pane.pane-views.pane-background-image .img-responsive {
     display: block;
     max-width: 100%;
     height: 45em;
   }
 }
-@media only screen and (min-width: 1450px) {
-  /* line 1375, ../scss/_overrides.scss */
+@media screen and (min-width: 1200px) {
+  /* line 2268, ../scss/_overrides.scss */
   div.panel-pane.pane-views.pane-background-image .img-responsive {
     display: block;
     max-width: 100%;
     height: auto;
   }
 }
+/**
+ * Slideshow styles.
+ */
 @media screen and (max-width: 767px) {
-  /* line 1403, ../scss/_overrides.scss */
+  /* line 2280, ../scss/_overrides.scss */
+  div.views-field.views-field-field-slides-image div#slick-views-carausel-1 {
+    background-color: #d2ccce;
+    padding-top: 1em;
+  }
+  /* line 2284, ../scss/_overrides.scss */
   div.views-field.views-field-field-slides-image img.img-responsive {
     display: block;
     max-width: 100%;
@@ -10405,7 +10488,13 @@ div.panel-pane.pane-views.pane-background-image {
   }
 }
 @media (max-width: 480px) {
-  /* line 1416, ../scss/_overrides.scss */
+  /* line 2294, ../scss/_overrides.scss */
+  div#slick-views-carausel-10 {
+    background-color: #d2ccce;
+    padding-top: 1em;
+  }
+
+  /* line 2299, ../scss/_overrides.scss */
   div.views-field.views-field-field-slides-image img.img-responsive {
     display: block;
     max-width: 100%;
@@ -10415,7 +10504,13 @@ div.panel-pane.pane-views.pane-background-image {
   }
 }
 @media (min-width: 480px) and (max-width: 768px) {
-  /* line 1429, ../scss/_overrides.scss */
+  /* line 2309, ../scss/_overrides.scss */
+  div#slick-views-carausel-1 {
+    background-color: #d2ccce;
+    padding-top: 1em;
+  }
+
+  /* line 2314, ../scss/_overrides.scss */
   div.views-field.views-field-field-slides-image img.img-responsive {
     display: block;
     max-width: 100%;
@@ -10425,7 +10520,7 @@ div.panel-pane.pane-views.pane-background-image {
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 1441, ../scss/_overrides.scss */
+  /* line 2325, ../scss/_overrides.scss */
   div.views-field.views-field-field-slides-image img.img-responsive {
     display: block;
     max-width: 100%;
@@ -10435,7 +10530,7 @@ div.panel-pane.pane-views.pane-background-image {
   }
 }
 @media only screen and (min-width: 1450px) {
-  /* line 1453, ../scss/_overrides.scss */
+  /* line 2336, ../scss/_overrides.scss */
   div.views-field.views-field-field-slides-image img.img-responsive {
     display: block;
     max-width: 100%;
@@ -10444,304 +10539,3889 @@ div.panel-pane.pane-views.pane-background-image {
     border: 4px solid white;
   }
 }
-/* line 1474, ../scss/_overrides.scss */
+/**
+ * Arrows styles.
+ */
+/* line 2348, ../scss/_overrides.scss */
 div#slick-views-carausel-1-slider {
   width: 93%;
   margin: 0 auto;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 1480, ../scss/_overrides.scss */
+  /* line 2353, ../scss/_overrides.scss */
   button.slick-prev.slick-arrow,
   button.slick-next.slick-arrow {
     display: none !important;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 1487, ../scss/_overrides.scss */
+  /* line 2359, ../scss/_overrides.scss */
   button.slick-prev.slick-arrow,
   button.slick-next.slick-arrow {
     display: none !important;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 1495, ../scss/_overrides.scss */
+  /* line 2365, ../scss/_overrides.scss */
   .slick-arrow::before {
     color: white;
   }
 }
+/**
+ * Left, right below styles.
+ */
 @media screen and (max-width: 767px) {
-  /* line 1501, ../scss/_overrides.scss */
+  /* line 2373, ../scss/_overrides.scss */
   div.panel-panel.panel-col-first {
-    width: 25%;
+    float: left;
+    width: 100%;
+    background-color: white;
   }
-  /* line 1504, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services,
-  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects {
-    background-color: red;
-    height: 13em;
+  /* line 2377, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.inside {
+    margin: 0;
+  }
+  /* line 2380, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+  }
+  /* line 2384, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services div.pane-content, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects div.pane-content {
+    display: table;
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    background-color: white;
+    margin-bottom: -18px;
+    margin-top: -10px;
+  }
+  /* line 2393, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services ul, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services h4.pane-title, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects ul, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects h4.pane-title {
+    width: calc(100% - 5px);
+    list-style: none;
+    padding: 0;
+    margin-left: 5px;
+  }
+  /* line 2399, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services h4.pane-title, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects h4.pane-title {
+    background-color: #244357;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+  }
+  /* line 2405, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services li a:before, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects li a:before {
+    content: "";
+    border-color: transparent #244357;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
     display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+  }
+  /* line 2417, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services li, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects li {
+    float: none;
+    vertical-align: middle;
+    text-align: justify;
+    background-color: #ececec;
+    margin: 5px 0 5px 15px;
+    margin-bottom: 3px;
+    border: 2px solid #e8e8e8;
+  }
+  /* line 2426, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services li a, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects li a {
+    width: 10em;
+    background-color: transparent;
+    text-transform: capitalize;
+    color: #244357;
+    vertical-align: middle;
+  }
+  /* line 2434, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-gallery {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+  }
+  /* line 2438, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-gallery h4.pane-title {
+    width: calc(100% - 5px);
+    list-style: none;
+    padding: 0;
+    margin-left: 5px;
+  }
+  /* line 2444, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-gallery h4.pane-title {
+    background-color: #244357;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+  }
+  /* line 2450, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-gallery div.pane-content {
+    margin: 5px;
+  }
+  /* line 2453, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-gallery div.views-row {
+    background-color: #ececec;
+    float: left;
+    width: 50%;
+    font-size: 0;
+    padding: 5px;
+  }
+  /* line 2459, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-gallery div.views-row img.img-responsive {
+    border: 4px solid whitesmoke;
+    margin: 5px;
   }
 
-  /* line 1512, ../scss/_overrides.scss */
+  /* line 2466, ../scss/_overrides.scss */
   div.panel-panel.panel-col-last {
-    width: 75%;
-  }
-  /* line 1515, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last div.inside {
-    display: inline-block;
-  }
-  /* line 1519, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last div.panel-pane.pane-block.pane-block-2 {
-    min-width: 100%;
-    background-color: pink;
-  }
-  /* line 1524, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last div.views-field.views-field-field-services-content-images {
-    display: block;
-    min-width: 70%;
-    height: auto;
     float: left;
+    width: 100%;
+    background-color: white;
   }
-  /* line 1529, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last div.views-field.views-field-field-services-content-images img.img-responsive {
+  /* line 2470, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-random-services-image {
     min-width: 100%;
-    display: block;
-    max-height: 20em;
+    float: left;
+    display: flex;
+    justify-content: center;
   }
-  /* line 1536, ../scss/_overrides.scss */
+  /* line 2475, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-random-services-image div.pane-content {
+    margin-left: -7px;
+    padding: 5px;
+  }
+  /* line 2480, ../scss/_overrides.scss */
   div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events {
-    width: 30%;
+    margin-right: 5px;
+    width: 100%;
     float: right;
+    background-color: white;
   }
-  /* line 1541, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-our-services-content {
-    width: 70%;
+  /* line 2485, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events div.pane-content {
+    display: table;
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    background-color: white;
+    margin-top: -10px;
+  }
+  /* line 2493, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events ul, div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events h4.pane-title {
+    width: calc(100% - 5px);
+    list-style: none;
+    padding: 0;
+    margin-left: 5px;
+  }
+  /* line 2499, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events h4.pane-title {
+    background-color: #a3a3a5;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+  }
+  /* line 2505, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events li a:before {
+    content: "••";
+    border-color: transparent #244357;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    position: relative;
+  }
+  /* line 2514, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events li {
+    float: none;
+    vertical-align: middle;
+    text-align: justify;
+    background-color: #ececec;
+    margin: 5px 0 5px 15px;
+    margin-bottom: 3px;
+    border: 2px solid #e8e8e8;
+  }
+  /* line 2523, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events li a {
+    width: 10em;
+    background-color: transparent;
+    text-transform: capitalize;
+    color: #a3a3a5;
+    vertical-align: middle;
+    text-decoration: underline;
+  }
+}
+/* line 2725, ../scss/_overrides.scss */
+.container {
+  width: 100%;
+  margin: 0;
+  padding-left: 1.5em;
+  padding-right: 0.83em;
+}
+
+/**
+ * Header styles.
+ */
+@media (max-width: 480px) {
+  /* line 2735, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top {
+    background-color: white;
+    background: linear-gradient(to top, #f2f2f2, white);
+    height: 6em;
+  }
+  /* line 2739, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top div.inside:after {
+    content: "interior";
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.08;
+    font-size: 4.5em;
+    padding-right: 0.3em;
+  }
+
+  /* line 2749, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name {
     float: left;
   }
-  /* line 1546, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-contact-us {
-    width: 30%;
+  /* line 2751, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name div.pane-content {
+    font-size: 2.5em;
+    color: #809c13;
+  }
+  @font-face {
+    /* line 2751, ../scss/_overrides.scss */
+    div.panel-pane.pane-page-site-name div.pane-content {
+      font-family: "Cyclo Trial";
+      src: url(../bootstrap/assets/fonts/bootstrap/Cyclo_Trial/Cyclo_Trial.svg);
+    }
+  }
+  /* line 2760, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan {
+    position: relative;
+    left: -7.5em;
+    top: 3em;
+  }
+  /* line 2764, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan div.pane-content {
+    font-size: 0.8em;
+    color: #cccccc;
+  }
+
+  /* line 2769, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 {
+    max-width: 50%;
     float: right;
+    font-family: "Cyclo Trial";
+  }
+  /* line 2772, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 div.pane-content p {
+    margin: 0 0 0px;
+    font-size: 0.7em;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  /* line 2780, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last {
+    display: none;
+  }
+
+  /* line 2783, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top {
+    background-color: white;
+    background: linear-gradient(to top, #f2f2f2, white);
+    height: 6em;
+  }
+  /* line 2787, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top div.inside:after {
+    content: "interior";
+    position: absolute;
+    top: -0.1em;
+    right: 0;
+    opacity: 0.08;
+    font-size: 6em;
+    padding-right: 0.2em;
+  }
+
+  /* line 2797, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name {
+    float: left;
+  }
+  /* line 2799, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name div.pane-content {
+    font-size: 3.125em;
+    color: #809c13;
+  }
+  @font-face {
+    /* line 2799, ../scss/_overrides.scss */
+    div.panel-pane.pane-page-site-name div.pane-content {
+      font-family: "Cyclo Trial";
+      src: url(../bootstrap/assets/fonts/bootstrap/Cyclo_Trial/Cyclo_Trial.svg);
+    }
+  }
+  /* line 2808, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan {
+    position: relative;
+    left: -9.6em;
+    top: 3.4em;
+  }
+  /* line 2812, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan div.pane-content {
+    font-size: 1.2em;
+    color: #cccccc;
+  }
+
+  /* line 2817, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 {
+    float: right;
+    font-family: "Cyclo Trial";
+  }
+  /* line 2819, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 div.pane-content p {
+    margin: 0 0 0px;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 1554, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-first {
-    width: 25%;
+  /* line 2826, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top {
+    background-color: white;
+    background: linear-gradient(to top, #f2f2f2, white);
+    height: 6em;
   }
-  /* line 1557, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services,
-  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects {
-    background-color: red;
-    height: 13em;
-    display: block;
+  /* line 2830, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top div.inside:after {
+    content: "interior";
+    position: absolute;
+    top: -0.5em;
+    right: 0;
+    opacity: 0.08;
+    font-size: 10.5em;
+    padding-right: 0.1em;
   }
 
-  /* line 1565, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last {
-    width: 75%;
-  }
-  /* line 1568, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last div.inside {
-    display: inline-block;
-  }
-  /* line 1572, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last div.panel-pane.pane-block.pane-block-2 {
-    min-width: 100%;
-    background-color: pink;
-  }
-  /* line 1577, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last div.views-field.views-field-field-services-content-images {
-    display: block;
-    min-width: 70%;
-    height: auto;
+  /* line 2840, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name {
+    padding-left: 30px;
     float: left;
   }
-  /* line 1582, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last div.views-field.views-field-field-services-content-images img.img-responsive {
-    min-width: 100%;
-    display: block;
-    max-height: 20em;
+  /* line 2843, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name div.pane-content {
+    font-size: 3.125em;
+    color: #809c13;
   }
-  /* line 1589, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events {
-    width: 30%;
+  @font-face {
+    /* line 2843, ../scss/_overrides.scss */
+    div.panel-pane.pane-page-site-name div.pane-content {
+      font-family: "Cyclo Trial";
+      src: url(../bootstrap/assets/fonts/bootstrap/Cyclo_Trial/Cyclo_Trial.svg);
+    }
+  }
+  /* line 2852, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan {
+    position: relative;
+    left: -9.6em;
+    top: 3.4em;
+  }
+  /* line 2856, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan div.pane-content {
+    font-size: 1.2em;
+    color: #cccccc;
+  }
+
+  /* line 2861, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 {
     float: right;
+    padding-right: 30px;
+    font-family: "Cyclo Trial";
   }
-  /* line 1594, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-our-services-content {
-    width: 70%;
-    float: left;
-  }
-  /* line 1599, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-contact-us {
-    width: 30%;
-    float: right;
+  /* line 2864, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 div.pane-content p {
+    margin: 0 0 0px;
   }
 }
 @media screen and (min-width: 992px) {
-  /* line 1607, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-first {
-    width: 25%;
+  /* line 2871, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top {
+    background-color: white;
+    background: linear-gradient(to top, #f2f2f2, white);
+    height: 6em;
   }
-  /* line 1610, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services,
-  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects {
-    background-color: red;
-    height: 13em;
-    display: block;
+  /* line 2875, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top div.inside:after {
+    content: "interior";
+    position: absolute;
+    top: -0.5em;
+    right: 0;
+    opacity: 0.08;
+    font-size: 10.5em;
+    padding-right: 0.1em;
   }
 
-  /* line 1618, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last {
-    width: 75%;
-  }
-  /* line 1621, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last div.inside {
-    display: inline-block;
-  }
-  /* line 1625, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last div.panel-pane.pane-block.pane-block-2 {
-    min-width: 100%;
-    background-color: pink;
-  }
-  /* line 1630, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last div.views-field.views-field-field-services-content-images {
-    display: block;
-    min-width: 70%;
-    height: auto;
+  /* line 2885, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name {
     float: left;
   }
-  /* line 1635, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last div.views-field.views-field-field-services-content-images img.img-responsive {
-    min-width: 100%;
-    display: block;
-    height: auto;
+  /* line 2887, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name div.pane-content {
+    font-size: 3.125em;
+    color: #809c13;
   }
-  /* line 1643, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events {
-    width: 30%;
+  @font-face {
+    /* line 2887, ../scss/_overrides.scss */
+    div.panel-pane.pane-page-site-name div.pane-content {
+      font-family: "Cyclo Trial";
+      src: url(../bootstrap/assets/fonts/bootstrap/Cyclo_Trial/Cyclo_Trial.svg);
+    }
+  }
+  /* line 2896, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan {
+    position: relative;
+    left: -9.6em;
+    top: 3.4em;
+  }
+  /* line 2900, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan div.pane-content {
+    font-size: 1.2em;
+    color: #cccccc;
+  }
+
+  /* line 2905, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 {
     float: right;
+    padding-right: 30px;
+    font-family: "Cyclo Trial";
   }
-  /* line 1648, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-our-services-content {
-    width: 70%;
-    float: left;
-  }
-  /* line 1653, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-contact-us {
-    width: 30%;
-    float: right;
+  /* line 2908, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 div.pane-content p {
+    margin: 0 0 0px;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 1661, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-first {
-    width: 25%;
+  /* line 2915, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top {
+    background-color: white;
+    background: linear-gradient(to top, #f2f2f2, white);
+    height: 6em;
   }
-  /* line 1664, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services,
-  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects {
-    background-color: red;
-    height: 14em;
-    display: block;
+  /* line 2919, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top div.inside:after {
+    content: "interior";
+    position: absolute;
+    top: -0.5em;
+    right: 0;
+    opacity: 0.08;
+    font-size: 10.5em;
+    padding-right: 0.1em;
   }
 
-  /* line 1672, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last {
-    width: 75%;
-  }
-  /* line 1675, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last div.inside {
-    display: inline-block;
-  }
-  /* line 1679, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last div.panel-pane.pane-block.pane-block-2 {
-    min-width: 100%;
-    background-color: pink;
-  }
-  /* line 1684, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last div.views-field.views-field-field-services-content-images {
-    display: block;
-    min-width: 70%;
-    height: auto;
+  /* line 2929, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name {
     float: left;
+    padding-left: 30px;
   }
-  /* line 1689, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last div.views-field.views-field-field-services-content-images img.img-responsive {
-    min-width: 100%;
-    display: block;
-    max-height: 20em;
+  /* line 2932, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name div.pane-content {
+    font-size: 3.125em;
+    color: #809c13;
+    font-weight: bold;
   }
-  /* line 1696, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events {
-    width: 30%;
+  @font-face {
+    /* line 2932, ../scss/_overrides.scss */
+    div.panel-pane.pane-page-site-name div.pane-content {
+      font-family: "Cyclo Trial";
+      src: url(../bootstrap/assets/fonts/bootstrap/Cyclo_Trial/Cyclo_Trial.svg);
+    }
+  }
+  /* line 2942, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan {
+    position: relative;
+    left: -10.6em;
+    top: 3.4em;
+  }
+  /* line 2946, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan div.pane-content {
+    font-size: 1.2em;
+    color: #cccccc;
+  }
+
+  /* line 2951, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 {
     float: right;
+    padding-right: 30px;
+    font-family: "Cyclo Trial";
   }
-  /* line 1701, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-our-services-content {
-    width: 70%;
-    float: left;
-  }
-  /* line 1706, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-contact-us {
-    width: 30%;
-    float: right;
+  /* line 2954, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 div.pane-content p {
+    margin: 0 0 0px;
   }
 }
-@media (min-width: 1403px) {
-  /* line 1714, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-first {
-    width: 25%;
-  }
-  /* line 1717, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services,
-  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects {
-    background-color: red;
-    height: 14em;
-    display: block;
+@media screen and (min-width: 1200px) {
+  /* line 2961, ../scss/_overrides.scss */
+  ul.menu.nav, ul.menu.nav li {
+    margin: 0;
+    padding: 0;
   }
 
-  /* line 1725, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last {
-    width: 75%;
+  /* line 2965, ../scss/_overrides.scss */
+  ul.menu.nav {
+    background: #f2f2f2;
   }
-  /* line 1728, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last div.inside {
+  /* line 2967, ../scss/_overrides.scss */
+  ul.menu.nav li {
     display: inline-block;
+    text-align: center;
   }
-  /* line 1732, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last div.panel-pane.pane-block.pane-block-2 {
-    min-width: 100%;
-    background-color: pink;
+  /* line 2970, ../scss/_overrides.scss */
+  ul.menu.nav li .active {
+    background: #809c13;
+    position: relative;
+    color: #fff;
   }
-  /* line 1737, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last div.views-field.views-field-field-services-content-images {
+  /* line 2975, ../scss/_overrides.scss */
+  ul.menu.nav li .active:after {
+    content: '';
+    position: absolute;
+    left: 40%;
+    bottom: -1.4em;
+    border: 10px solid transparent;
+    border-top: 10px solid #809c13;
+  }
+  /* line 2984, ../scss/_overrides.scss */
+  ul.menu.nav a {
     display: block;
-    min-width: 70%;
+    padding: 5px 15px;
+    color: #4b4b4b;
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+  }
+}
+/**
+ * Menu styles.
+ */
+@media only screen and (max-width: 520px) {
+  /* line 3001, ../scss/_overrides.scss */
+  div.contextual-links-region.panel-pane.pane-block.pane-system-main-menu {
+    font-size: 1em;
+  }
+
+  /* line 3004, ../scss/_overrides.scss */
+  ul.menu.nav {
+    position: absolute;
+    margin-top: 0;
+    left: -10.4em;
+    width: 1em;
+    height: 100%;
+    z-index: 10;
+    overflow: visible;
+    opacity: 0.8;
+    transition: left 1s ease-out 0.5s;
+    -webkit-transition: left 1s ease-out 0.5s;
+  }
+
+  /* line 3016, ../scss/_overrides.scss */
+  li a {
+    width: 10em;
+    background-color: white;
+  }
+
+  /* line 3020, ../scss/_overrides.scss */
+  .active {
+    background: #809c13;
+    position: relative;
+    color: #fff;
+  }
+
+  /* line 3025, ../scss/_overrides.scss */
+  .active:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    border: 1.45em solid transparent;
+    border-left: 1em solid #809c13;
+  }
+
+  /* line 3033, ../scss/_overrides.scss */
+  ul.menu.nav:hover {
+    left: -0.5em;
+    opacity: 10;
+  }
+  /* line 3036, ../scss/_overrides.scss */
+  ul.menu.nav:hover li {
+    background-color: white;
+  }
+  /* line 3039, ../scss/_overrides.scss */
+  ul.menu.nav:hover a {
+    width: 10em;
+  }
+  /* line 3042, ../scss/_overrides.scss */
+  ul.menu.nav:hover .active {
+    background: #809c13;
+    position: relative;
+    color: #fff;
+  }
+  /* line 3047, ../scss/_overrides.scss */
+  ul.menu.nav:hover li.active::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10em;
+    border: 1.45em solid transparent;
+    border-left: 1em solid #809c13;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 3058, ../scss/_overrides.scss */
+  div.contextual-links-region.panel-pane.pane-block.pane-system-main-menu {
+    font-size: 1em;
+  }
+
+  /* line 3061, ../scss/_overrides.scss */
+  ul.menu.nav {
+    position: absolute;
+    margin-top: 0;
+    left: -10.4em;
+    width: 1em;
+    height: 100%;
+    z-index: 10;
+    overflow: visible;
+    opacity: 0.8;
+    transition: left 1s ease-out 0.5s;
+    -webkit-transition: left 1s ease-out 0.5s;
+  }
+
+  /* line 3073, ../scss/_overrides.scss */
+  li a {
+    width: 10em;
+    background-color: white;
+  }
+
+  /* line 3077, ../scss/_overrides.scss */
+  .active {
+    background: #809c13;
+    position: relative;
+    color: #fff;
+  }
+
+  /* line 3082, ../scss/_overrides.scss */
+  .active:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    border: 1.45em solid transparent;
+    border-left: 1em solid #809c13;
+  }
+
+  /* line 3090, ../scss/_overrides.scss */
+  ul.menu.nav:hover {
+    left: -0.5em;
+    opacity: 10;
+  }
+  /* line 3093, ../scss/_overrides.scss */
+  ul.menu.nav:hover li {
+    background-color: white;
+  }
+  /* line 3096, ../scss/_overrides.scss */
+  ul.menu.nav:hover a {
+    width: 10em;
+  }
+  /* line 3099, ../scss/_overrides.scss */
+  ul.menu.nav:hover .active {
+    background: #809c13;
+    position: relative;
+    color: #fff;
+  }
+  /* line 3104, ../scss/_overrides.scss */
+  ul.menu.nav:hover li.active::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10em;
+    border: 1.45em solid transparent;
+    border-left: 1em solid #809c13;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 3115, ../scss/_overrides.scss */
+  ul.menu.nav, ul.menu.nav li {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 3119, ../scss/_overrides.scss */
+  ul.menu.nav {
+    background: #f2f2f2;
+  }
+  /* line 3121, ../scss/_overrides.scss */
+  ul.menu.nav li {
+    display: inline-block;
+    text-align: center;
+  }
+  /* line 3124, ../scss/_overrides.scss */
+  ul.menu.nav li .active {
+    background: #809c13;
+    position: relative;
+    color: #fff;
+  }
+  /* line 3129, ../scss/_overrides.scss */
+  ul.menu.nav li .active:after {
+    content: '';
+    position: absolute;
+    left: 40%;
+    bottom: -1.4em;
+  }
+  /* line 3136, ../scss/_overrides.scss */
+  ul.menu.nav a {
+    display: block;
+    padding: 5px 15px;
+    color: #4b4b4b;
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 3150, ../scss/_overrides.scss */
+  ul.menu.nav, ul.menu.nav li {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 3154, ../scss/_overrides.scss */
+  ul.menu.nav {
+    background: #f2f2f2;
+  }
+  /* line 3156, ../scss/_overrides.scss */
+  ul.menu.nav li {
+    display: inline-block;
+    text-align: center;
+  }
+  /* line 3159, ../scss/_overrides.scss */
+  ul.menu.nav li .active {
+    background: #809c13;
+    position: relative;
+    color: #fff;
+  }
+  /* line 3164, ../scss/_overrides.scss */
+  ul.menu.nav li .active:after {
+    content: '';
+    position: absolute;
+    left: 40%;
+    bottom: -1.4em;
+    border: 10px solid transparent;
+    border-top: 10px solid #809c13;
+  }
+  /* line 3173, ../scss/_overrides.scss */
+  ul.menu.nav a {
+    display: block;
+    padding: 5px 15px;
+    color: #4b4b4b;
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+  }
+}
+/**
+ * Background image styles.
+ */
+/* line 3189, ../scss/_overrides.scss */
+div.panel-pane.pane-views.pane-background-image {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 3195, ../scss/_overrides.scss */
+  div.panel-pane.pane-views.pane-background-image .img-responsive {
+    margin-top: -0.5em;
+    display: block;
+    max-width: 100%;
     height: auto;
-    float: left;
   }
-  /* line 1742, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last div.views-field.views-field-field-services-content-images img.img-responsive {
-    min-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  /* line 3205, ../scss/_overrides.scss */
+  div.panel-pane.pane-views.pane-background-image .img-responsive {
     display: block;
-    max-height: 20em;
+    max-width: 100%;
+    height: auto;
   }
-  /* line 1749, ../scss/_overrides.scss */
+}
+@media screen and (min-width: 992px) {
+  /* line 3215, ../scss/_overrides.scss */
+  div.panel-pane.pane-views.pane-background-image .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  /* line 3225, ../scss/_overrides.scss */
+  div.panel-pane.pane-views.pane-background-image .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 3235, ../scss/_overrides.scss */
+  div.panel-pane.pane-views.pane-background-image .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}
+/**
+ * Slideshow styles.
+ */
+@media screen and (max-width: 767px) {
+  /* line 3247, ../scss/_overrides.scss */
+  div.views-field.views-field-field-slides-image div#slick-views-carausel-1 {
+    background-color: #d2ccce;
+    padding-top: 1em;
+  }
+  /* line 3251, ../scss/_overrides.scss */
+  div.views-field.views-field-field-slides-image img.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    max-height: 4em;
+    border: 4px solid white;
+  }
+}
+@media (max-width: 480px) {
+  /* line 3261, ../scss/_overrides.scss */
+  div#slick-views-carausel-10 {
+    background-color: #d2ccce;
+    padding-top: 1em;
+  }
+
+  /* line 3266, ../scss/_overrides.scss */
+  div.views-field.views-field-field-slides-image img.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    max-height: 3em;
+    border: 4px solid white;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  /* line 3276, ../scss/_overrides.scss */
+  div#slick-views-carausel-1 {
+    background-color: #d2ccce;
+    padding-top: 1em;
+  }
+
+  /* line 3281, ../scss/_overrides.scss */
+  div.views-field.views-field-field-slides-image img.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    max-height: 5em;
+    border: 4px solid white;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 3292, ../scss/_overrides.scss */
+  div.views-field.views-field-field-slides-image img.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    max-height: 8em;
+    border: 4px solid white;
+  }
+}
+@media only screen and (min-width: 1450px) {
+  /* line 3303, ../scss/_overrides.scss */
+  div.views-field.views-field-field-slides-image img.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    max-height: 10em;
+    border: 4px solid white;
+  }
+}
+/**
+ * Arrows styles.
+ */
+/* line 3315, ../scss/_overrides.scss */
+div#slick-views-carausel-1-slider {
+  width: 93%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 3320, ../scss/_overrides.scss */
+  button.slick-prev.slick-arrow,
+  button.slick-next.slick-arrow {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 3326, ../scss/_overrides.scss */
+  button.slick-prev.slick-arrow,
+  button.slick-next.slick-arrow {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 3332, ../scss/_overrides.scss */
+  .slick-arrow::before {
+    color: white;
+  }
+}
+/**
+ * Left, right below styles.
+ */
+@media screen and (max-width: 767px) {
+  /* line 3340, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first {
+    float: left;
+    width: 100%;
+    background-color: white;
+  }
+  /* line 3344, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.inside {
+    margin: 0;
+  }
+  /* line 3347, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+  }
+  /* line 3351, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services div.pane-content, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects div.pane-content {
+    display: table;
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    background-color: white;
+    margin-bottom: -18px;
+    margin-top: -10px;
+  }
+  /* line 3360, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services ul, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services h4.pane-title, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects ul, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects h4.pane-title {
+    width: calc(100% - 5px);
+    list-style: none;
+    padding: 0;
+    margin-left: 5px;
+  }
+  /* line 3366, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services h4.pane-title, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects h4.pane-title {
+    background-color: #244357;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+  }
+  /* line 3372, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services li a:before, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects li a:before {
+    content: "";
+    border-color: transparent #244357;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+  }
+  /* line 3384, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services li, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects li {
+    float: none;
+    vertical-align: middle;
+    text-align: justify;
+    background-color: #ececec;
+    margin: 5px 0 5px 15px;
+    margin-bottom: 3px;
+    border: 2px solid #e8e8e8;
+  }
+  /* line 3393, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services li a, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects li a {
+    width: 10em;
+    background-color: transparent;
+    text-transform: capitalize;
+    color: #244357;
+    vertical-align: middle;
+  }
+  /* line 3401, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-gallery {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+  }
+  /* line 3405, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-gallery h4.pane-title {
+    width: calc(100% - 5px);
+    list-style: none;
+    padding: 0;
+    margin-left: 5px;
+  }
+  /* line 3411, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-gallery h4.pane-title {
+    background-color: #244357;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+  }
+  /* line 3417, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-gallery div.pane-content {
+    margin: 5px;
+  }
+  /* line 3420, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-gallery div.views-row {
+    background-color: #ececec;
+    float: left;
+    width: 50%;
+    font-size: 0;
+    padding: 5px;
+  }
+  /* line 3426, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-gallery div.views-row img.img-responsive {
+    border: 4px solid whitesmoke;
+    margin: 5px;
+  }
+
+  /* line 3433, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last {
+    float: left;
+    width: 100%;
+    background-color: white;
+  }
+  /* line 3437, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-random-services-image {
+    min-width: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+  }
+  /* line 3442, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-random-services-image div.pane-content {
+    margin-left: -7px;
+    padding: 5px;
+  }
+  /* line 3447, ../scss/_overrides.scss */
   div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events {
-    width: 30%;
+    margin-right: 5px;
+    width: 100%;
     float: right;
+    background-color: white;
   }
-  /* line 1754, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-our-services-content {
-    width: 70%;
+  /* line 3452, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events div.pane-content {
+    display: table;
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    background-color: white;
+    margin-top: -10px;
+  }
+  /* line 3460, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events ul, div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events h4.pane-title {
+    width: calc(100% - 5px);
+    list-style: none;
+    padding: 0;
+    margin-left: 5px;
+  }
+  /* line 3466, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events h4.pane-title {
+    background-color: #a3a3a5;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+  }
+  /* line 3472, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events li a:before {
+    content: "••";
+    border-color: transparent #244357;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    position: relative;
+  }
+  /* line 3481, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events li {
+    float: none;
+    vertical-align: middle;
+    text-align: justify;
+    background-color: #ececec;
+    margin: 5px 0 5px 15px;
+    margin-bottom: 3px;
+    border: 2px solid #e8e8e8;
+  }
+  /* line 3490, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events li a {
+    width: 10em;
+    background-color: transparent;
+    text-transform: capitalize;
+    color: #a3a3a5;
+    vertical-align: middle;
+    text-decoration: underline;
+  }
+}
+/* line 3692, ../scss/_overrides.scss */
+.container {
+  width: 100%;
+  margin: 0;
+  padding-left: 1.5em;
+  padding-right: 0.83em;
+}
+
+/**
+ * Header styles.
+ */
+@media (max-width: 480px) {
+  /* line 3702, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top {
+    background-color: white;
+    background: linear-gradient(to top, #f2f2f2, white);
+    height: 6em;
+  }
+  /* line 3706, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top div.inside:after {
+    content: "interior";
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.08;
+    font-size: 4.5em;
+    padding-right: 0.3em;
+  }
+
+  /* line 3716, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name {
     float: left;
   }
-  /* line 1759, ../scss/_overrides.scss */
-  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-contact-us {
-    width: 30%;
+  /* line 3718, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name div.pane-content {
+    font-size: 2.5em;
+    color: #809c13;
+  }
+  @font-face {
+    /* line 3718, ../scss/_overrides.scss */
+    div.panel-pane.pane-page-site-name div.pane-content {
+      font-family: "Cyclo Trial";
+      src: url(../bootstrap/assets/fonts/bootstrap/Cyclo_Trial/Cyclo_Trial.svg);
+    }
+  }
+  /* line 3727, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan {
+    position: relative;
+    left: -7.5em;
+    top: 3em;
+  }
+  /* line 3731, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan div.pane-content {
+    font-size: 0.8em;
+    color: #cccccc;
+  }
+
+  /* line 3736, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 {
+    max-width: 50%;
     float: right;
+    font-family: "Cyclo Trial";
+  }
+  /* line 3739, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 div.pane-content p {
+    margin: 0 0 0px;
+    font-size: 0.7em;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  /* line 3747, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top {
+    background-color: white;
+    background: linear-gradient(to top, #f2f2f2, white);
+    height: 6em;
+  }
+  /* line 3751, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top div.inside:after {
+    content: "interior";
+    position: absolute;
+    top: -0.1em;
+    right: 0;
+    opacity: 0.08;
+    font-size: 6em;
+    padding-right: 0.2em;
+  }
+
+  /* line 3761, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name {
+    float: left;
+  }
+  /* line 3763, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name div.pane-content {
+    font-size: 3.125em;
+    color: #809c13;
+  }
+  @font-face {
+    /* line 3763, ../scss/_overrides.scss */
+    div.panel-pane.pane-page-site-name div.pane-content {
+      font-family: "Cyclo Trial";
+      src: url(../bootstrap/assets/fonts/bootstrap/Cyclo_Trial/Cyclo_Trial.svg);
+    }
+  }
+  /* line 3772, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan {
+    position: relative;
+    left: -9.6em;
+    top: 3.4em;
+  }
+  /* line 3776, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan div.pane-content {
+    font-size: 1.2em;
+    color: #cccccc;
+  }
+
+  /* line 3781, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 {
+    float: right;
+    font-family: "Cyclo Trial";
+  }
+  /* line 3783, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 div.pane-content p {
+    margin: 0 0 0px;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 3790, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top {
+    background-color: white;
+    background: linear-gradient(to top, #f2f2f2, white);
+    height: 6em;
+  }
+  /* line 3794, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top div.inside:after {
+    content: "interior";
+    position: absolute;
+    top: -0.5em;
+    right: 0;
+    opacity: 0.08;
+    font-size: 10.5em;
+    padding-right: 0.1em;
+  }
+
+  /* line 3804, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name {
+    padding-left: 30px;
+    float: left;
+  }
+  /* line 3807, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name div.pane-content {
+    font-size: 3.125em;
+    color: #809c13;
+  }
+  @font-face {
+    /* line 3807, ../scss/_overrides.scss */
+    div.panel-pane.pane-page-site-name div.pane-content {
+      font-family: "Cyclo Trial";
+      src: url(../bootstrap/assets/fonts/bootstrap/Cyclo_Trial/Cyclo_Trial.svg);
+    }
+  }
+  /* line 3816, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan {
+    position: relative;
+    left: -9.6em;
+    top: 3.4em;
+  }
+  /* line 3820, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan div.pane-content {
+    font-size: 1.2em;
+    color: #cccccc;
+  }
+
+  /* line 3825, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 {
+    float: right;
+    padding-right: 30px;
+    font-family: "Cyclo Trial";
+  }
+  /* line 3828, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 div.pane-content p {
+    margin: 0 0 0px;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 3835, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top {
+    background-color: white;
+    background: linear-gradient(to top, #f2f2f2, white);
+    height: 6em;
+  }
+  /* line 3839, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top div.inside:after {
+    content: "interior";
+    position: absolute;
+    top: -0.5em;
+    right: 0;
+    opacity: 0.08;
+    font-size: 10.5em;
+    padding-right: 0.1em;
+  }
+
+  /* line 3849, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name {
+    float: left;
+  }
+  /* line 3851, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name div.pane-content {
+    font-size: 3.125em;
+    color: #809c13;
+  }
+  @font-face {
+    /* line 3851, ../scss/_overrides.scss */
+    div.panel-pane.pane-page-site-name div.pane-content {
+      font-family: "Cyclo Trial";
+      src: url(../bootstrap/assets/fonts/bootstrap/Cyclo_Trial/Cyclo_Trial.svg);
+    }
+  }
+  /* line 3860, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan {
+    position: relative;
+    left: -9.6em;
+    top: 3.4em;
+  }
+  /* line 3864, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan div.pane-content {
+    font-size: 1.2em;
+    color: #cccccc;
+  }
+
+  /* line 3869, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 {
+    float: right;
+    padding-right: 30px;
+    font-family: "Cyclo Trial";
+  }
+  /* line 3872, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 div.pane-content p {
+    margin: 0 0 0px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 3879, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top {
+    background-color: white;
+    background: linear-gradient(to top, #f2f2f2, white);
+    height: 6em;
+  }
+  /* line 3883, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top div.inside:after {
+    content: "interior";
+    position: absolute;
+    top: -0.5em;
+    right: 0;
+    opacity: 0.08;
+    font-size: 10.5em;
+    padding-right: 0.1em;
+  }
+
+  /* line 3893, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name {
+    float: left;
+    padding-left: 30px;
+  }
+  /* line 3896, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name div.pane-content {
+    font-size: 3.125em;
+    color: #809c13;
+    font-weight: bold;
+  }
+  @font-face {
+    /* line 3896, ../scss/_overrides.scss */
+    div.panel-pane.pane-page-site-name div.pane-content {
+      font-family: "Cyclo Trial";
+      src: url(../bootstrap/assets/fonts/bootstrap/Cyclo_Trial/Cyclo_Trial.svg);
+    }
+  }
+  /* line 3906, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan {
+    position: relative;
+    left: -10.6em;
+    top: 3.4em;
+  }
+  /* line 3910, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan div.pane-content {
+    font-size: 1.2em;
+    color: #cccccc;
+  }
+
+  /* line 3915, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 {
+    float: right;
+    padding-right: 30px;
+    font-family: "Cyclo Trial";
+  }
+  /* line 3918, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 div.pane-content p {
+    margin: 0 0 0px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 3925, ../scss/_overrides.scss */
+  ul.menu.nav, ul.menu.nav li {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 3929, ../scss/_overrides.scss */
+  ul.menu.nav {
+    background: #f2f2f2;
+  }
+  /* line 3931, ../scss/_overrides.scss */
+  ul.menu.nav li {
+    display: inline-block;
+    text-align: center;
+  }
+  /* line 3934, ../scss/_overrides.scss */
+  ul.menu.nav li .active {
+    background: #809c13;
+    position: relative;
+    color: #fff;
+  }
+  /* line 3939, ../scss/_overrides.scss */
+  ul.menu.nav li .active:after {
+    content: '';
+    position: absolute;
+    left: 40%;
+    bottom: -1.4em;
+    border: 10px solid transparent;
+    border-top: 10px solid #809c13;
+  }
+  /* line 3948, ../scss/_overrides.scss */
+  ul.menu.nav a {
+    display: block;
+    padding: 5px 15px;
+    color: #4b4b4b;
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+  }
+}
+/**
+ * Menu styles.
+ */
+@media only screen and (max-width: 520px) {
+  /* line 3965, ../scss/_overrides.scss */
+  div.contextual-links-region.panel-pane.pane-block.pane-system-main-menu {
+    font-size: 1em;
+  }
+
+  /* line 3968, ../scss/_overrides.scss */
+  ul.menu.nav {
+    position: absolute;
+    margin-top: 0;
+    left: -10.4em;
+    width: 1em;
+    height: 100%;
+    z-index: 10;
+    overflow: visible;
+    opacity: 0.8;
+    transition: left 1s ease-out 0.5s;
+    -webkit-transition: left 1s ease-out 0.5s;
+  }
+
+  /* line 3980, ../scss/_overrides.scss */
+  li a {
+    width: 10em;
+    background-color: white;
+  }
+
+  /* line 3984, ../scss/_overrides.scss */
+  .active {
+    background: #809c13;
+    position: relative;
+    color: #fff;
+  }
+
+  /* line 3989, ../scss/_overrides.scss */
+  .active:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    border: 1.45em solid transparent;
+    border-left: 1em solid #809c13;
+  }
+
+  /* line 3997, ../scss/_overrides.scss */
+  ul.menu.nav:hover {
+    left: -0.5em;
+    opacity: 10;
+  }
+  /* line 4000, ../scss/_overrides.scss */
+  ul.menu.nav:hover li {
+    background-color: white;
+  }
+  /* line 4003, ../scss/_overrides.scss */
+  ul.menu.nav:hover a {
+    width: 10em;
+  }
+  /* line 4006, ../scss/_overrides.scss */
+  ul.menu.nav:hover .active {
+    background: #809c13;
+    position: relative;
+    color: #fff;
+  }
+  /* line 4011, ../scss/_overrides.scss */
+  ul.menu.nav:hover li.active::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10em;
+    border: 1.45em solid transparent;
+    border-left: 1em solid #809c13;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 4022, ../scss/_overrides.scss */
+  div.contextual-links-region.panel-pane.pane-block.pane-system-main-menu {
+    font-size: 1em;
+  }
+
+  /* line 4025, ../scss/_overrides.scss */
+  ul.menu.nav {
+    position: absolute;
+    margin-top: 0;
+    left: -10.4em;
+    width: 1em;
+    height: 100%;
+    z-index: 10;
+    overflow: visible;
+    opacity: 0.8;
+    transition: left 1s ease-out 0.5s;
+    -webkit-transition: left 1s ease-out 0.5s;
+  }
+
+  /* line 4037, ../scss/_overrides.scss */
+  li a {
+    width: 10em;
+    background-color: white;
+  }
+
+  /* line 4041, ../scss/_overrides.scss */
+  .active {
+    background: #809c13;
+    position: relative;
+    color: #fff;
+  }
+
+  /* line 4046, ../scss/_overrides.scss */
+  .active:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    border: 1.45em solid transparent;
+    border-left: 1em solid #809c13;
+  }
+
+  /* line 4054, ../scss/_overrides.scss */
+  ul.menu.nav:hover {
+    left: -0.5em;
+    opacity: 10;
+  }
+  /* line 4057, ../scss/_overrides.scss */
+  ul.menu.nav:hover li {
+    background-color: white;
+  }
+  /* line 4060, ../scss/_overrides.scss */
+  ul.menu.nav:hover a {
+    width: 10em;
+  }
+  /* line 4063, ../scss/_overrides.scss */
+  ul.menu.nav:hover .active {
+    background: #809c13;
+    position: relative;
+    color: #fff;
+  }
+  /* line 4068, ../scss/_overrides.scss */
+  ul.menu.nav:hover li.active::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10em;
+    border: 1.45em solid transparent;
+    border-left: 1em solid #809c13;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 4079, ../scss/_overrides.scss */
+  ul.menu.nav, ul.menu.nav li {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 4083, ../scss/_overrides.scss */
+  ul.menu.nav {
+    background: #f2f2f2;
+  }
+  /* line 4085, ../scss/_overrides.scss */
+  ul.menu.nav li {
+    display: inline-block;
+    text-align: center;
+  }
+  /* line 4088, ../scss/_overrides.scss */
+  ul.menu.nav li .active {
+    background: #809c13;
+    position: relative;
+    color: #fff;
+  }
+  /* line 4093, ../scss/_overrides.scss */
+  ul.menu.nav li .active:after {
+    content: '';
+    position: absolute;
+    left: 40%;
+    bottom: -1.4em;
+  }
+  /* line 4100, ../scss/_overrides.scss */
+  ul.menu.nav a {
+    display: block;
+    padding: 5px 15px;
+    color: #4b4b4b;
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 4114, ../scss/_overrides.scss */
+  ul.menu.nav, ul.menu.nav li {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 4118, ../scss/_overrides.scss */
+  ul.menu.nav {
+    background: #f2f2f2;
+  }
+  /* line 4120, ../scss/_overrides.scss */
+  ul.menu.nav li {
+    display: inline-block;
+    text-align: center;
+  }
+  /* line 4123, ../scss/_overrides.scss */
+  ul.menu.nav li .active {
+    background: #809c13;
+    position: relative;
+    color: #fff;
+  }
+  /* line 4128, ../scss/_overrides.scss */
+  ul.menu.nav li .active:after {
+    content: '';
+    position: absolute;
+    left: 40%;
+    bottom: -1.4em;
+    border: 10px solid transparent;
+    border-top: 10px solid #809c13;
+  }
+  /* line 4137, ../scss/_overrides.scss */
+  ul.menu.nav a {
+    display: block;
+    padding: 5px 15px;
+    color: #4b4b4b;
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+  }
+}
+/**
+ * Background image styles.
+ */
+/* line 4153, ../scss/_overrides.scss */
+div.panel-pane.pane-views.pane-background-image {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 520px) {
+  /* line 4159, ../scss/_overrides.scss */
+  div.panel-pane.pane-views.pane-background-image .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 4168, ../scss/_overrides.scss */
+  div.panel-pane.pane-views.pane-background-image .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: 30em;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 4177, ../scss/_overrides.scss */
+  div.panel-pane.pane-views.pane-background-image .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: 40em;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  /* line 4186, ../scss/_overrides.scss */
+  div.panel-pane.pane-views.pane-background-image .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: 45em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 4195, ../scss/_overrides.scss */
+  div.panel-pane.pane-views.pane-background-image .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}
+/**
+ * Slideshow styles.
+ */
+@media screen and (max-width: 767px) {
+  /* line 4207, ../scss/_overrides.scss */
+  div.views-field.views-field-field-slides-image div#slick-views-carausel-1 {
+    background-color: #d2ccce;
+    padding-top: 1em;
+  }
+  /* line 4211, ../scss/_overrides.scss */
+  div.views-field.views-field-field-slides-image img.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    max-height: 4em;
+    border: 4px solid white;
+  }
+}
+@media (max-width: 480px) {
+  /* line 4221, ../scss/_overrides.scss */
+  div#slick-views-carausel-10 {
+    background-color: #d2ccce;
+    padding-top: 1em;
+  }
+
+  /* line 4226, ../scss/_overrides.scss */
+  div.views-field.views-field-field-slides-image img.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    max-height: 3em;
+    border: 4px solid white;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  /* line 4236, ../scss/_overrides.scss */
+  div#slick-views-carausel-1 {
+    background-color: #d2ccce;
+    padding-top: 1em;
+  }
+
+  /* line 4241, ../scss/_overrides.scss */
+  div.views-field.views-field-field-slides-image img.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    max-height: 5em;
+    border: 4px solid white;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 4252, ../scss/_overrides.scss */
+  div.views-field.views-field-field-slides-image img.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    max-height: 8em;
+    border: 4px solid white;
+  }
+}
+@media only screen and (min-width: 1450px) {
+  /* line 4263, ../scss/_overrides.scss */
+  div.views-field.views-field-field-slides-image img.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    max-height: 10em;
+    border: 4px solid white;
+  }
+}
+/**
+ * Arrows styles.
+ */
+/* line 4275, ../scss/_overrides.scss */
+div#slick-views-carausel-1-slider {
+  width: 93%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 4280, ../scss/_overrides.scss */
+  button.slick-prev.slick-arrow,
+  button.slick-next.slick-arrow {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 4286, ../scss/_overrides.scss */
+  button.slick-prev.slick-arrow,
+  button.slick-next.slick-arrow {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 4292, ../scss/_overrides.scss */
+  .slick-arrow::before {
+    color: white;
+  }
+}
+/**
+ * Left, right below styles.
+ */
+@media screen and (max-width: 767px) {
+  /* line 4300, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first {
+    float: left;
+    width: 100%;
+    background-color: white;
+  }
+  /* line 4304, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.inside {
+    margin: 0;
+  }
+  /* line 4307, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+  }
+  /* line 4311, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services div.pane-content, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects div.pane-content {
+    display: table;
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    background-color: white;
+    margin-bottom: -18px;
+    margin-top: -10px;
+  }
+  /* line 4320, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services ul, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services h4.pane-title, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects ul, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects h4.pane-title {
+    width: calc(100% - 5px);
+    list-style: none;
+    padding: 0;
+    margin-left: 5px;
+  }
+  /* line 4326, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services h4.pane-title, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects h4.pane-title {
+    background-color: #244357;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+  }
+  /* line 4332, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services li a:before, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects li a:before {
+    content: "";
+    border-color: transparent #244357;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+  }
+  /* line 4344, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services li, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects li {
+    float: none;
+    vertical-align: middle;
+    text-align: justify;
+    background-color: #ececec;
+    margin: 5px 0 5px 15px;
+    margin-bottom: 3px;
+    border: 2px solid #e8e8e8;
+  }
+  /* line 4353, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services li a, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects li a {
+    width: 10em;
+    background-color: transparent;
+    text-transform: capitalize;
+    color: #244357;
+    vertical-align: middle;
+  }
+  /* line 4361, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-gallery {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+  }
+  /* line 4365, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-gallery h4.pane-title {
+    width: calc(100% - 5px);
+    list-style: none;
+    padding: 0;
+    margin-left: 5px;
+  }
+  /* line 4371, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-gallery h4.pane-title {
+    background-color: #244357;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+  }
+  /* line 4377, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-gallery div.pane-content {
+    margin: 5px;
+  }
+  /* line 4380, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-gallery div.views-row {
+    background-color: #ececec;
+    float: left;
+    width: 50%;
+    font-size: 0;
+    padding: 5px;
+  }
+  /* line 4386, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-gallery div.views-row img.img-responsive {
+    border: 4px solid whitesmoke;
+    margin: 5px;
+  }
+
+  /* line 4393, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last {
+    float: left;
+    width: 100%;
+    background-color: white;
+  }
+  /* line 4397, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-random-services-image {
+    min-width: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+  }
+  /* line 4402, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-random-services-image div.pane-content {
+    margin-left: -7px;
+    padding: 5px;
+  }
+  /* line 4407, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events {
+    margin-right: 5px;
+    width: 100%;
+    float: right;
+    background-color: white;
+  }
+  /* line 4412, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events div.pane-content {
+    display: table;
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    background-color: white;
+    margin-top: -10px;
+  }
+  /* line 4420, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events ul, div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events h4.pane-title {
+    width: calc(100% - 5px);
+    list-style: none;
+    padding: 0;
+    margin-left: 5px;
+  }
+  /* line 4426, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events h4.pane-title {
+    background-color: #a3a3a5;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+  }
+  /* line 4432, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events li a:before {
+    content: "••";
+    border-color: transparent #244357;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    position: relative;
+  }
+  /* line 4441, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events li {
+    float: none;
+    vertical-align: middle;
+    text-align: justify;
+    background-color: #ececec;
+    margin: 5px 0 5px 15px;
+    margin-bottom: 3px;
+    border: 2px solid #e8e8e8;
+  }
+  /* line 4450, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events li a {
+    width: 10em;
+    background-color: transparent;
+    text-transform: capitalize;
+    color: #a3a3a5;
+    vertical-align: middle;
+    text-decoration: underline;
+  }
+}
+/* line 4652, ../scss/_overrides.scss */
+.container {
+  width: 100%;
+  margin: 0;
+  padding-left: 1.5em;
+  padding-right: 0.83em;
+}
+
+/**
+ * Header styles.
+ */
+@media (max-width: 480px) {
+  /* line 4662, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top {
+    background-color: white;
+    background: linear-gradient(to top, #f2f2f2, white);
+    height: 6em;
+  }
+  /* line 4666, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top div.inside:after {
+    content: "interior";
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.08;
+    font-size: 4.5em;
+    padding-right: 0.3em;
+  }
+
+  /* line 4676, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name {
+    float: left;
+  }
+  /* line 4678, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name div.pane-content {
+    font-size: 2.5em;
+    color: #809c13;
+  }
+  @font-face {
+    /* line 4678, ../scss/_overrides.scss */
+    div.panel-pane.pane-page-site-name div.pane-content {
+      font-family: "Cyclo Trial";
+      src: url(../bootstrap/assets/fonts/bootstrap/Cyclo_Trial/Cyclo_Trial.svg);
+    }
+  }
+  /* line 4687, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan {
+    position: relative;
+    left: -7.5em;
+    top: 3em;
+  }
+  /* line 4691, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan div.pane-content {
+    font-size: 0.8em;
+    color: #cccccc;
+  }
+
+  /* line 4696, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 {
+    max-width: 50%;
+    float: right;
+    font-family: "Cyclo Trial";
+  }
+  /* line 4699, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 div.pane-content p {
+    margin: 0 0 0px;
+    font-size: 0.7em;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  /* line 4707, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top {
+    background-color: white;
+    background: linear-gradient(to top, #f2f2f2, white);
+    height: 6em;
+  }
+  /* line 4711, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top div.inside:after {
+    content: "interior";
+    position: absolute;
+    top: -0.1em;
+    right: 0;
+    opacity: 0.08;
+    font-size: 6em;
+    padding-right: 0.2em;
+  }
+
+  /* line 4721, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name {
+    float: left;
+  }
+  /* line 4723, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name div.pane-content {
+    font-size: 3.125em;
+    color: #809c13;
+  }
+  @font-face {
+    /* line 4723, ../scss/_overrides.scss */
+    div.panel-pane.pane-page-site-name div.pane-content {
+      font-family: "Cyclo Trial";
+      src: url(../bootstrap/assets/fonts/bootstrap/Cyclo_Trial/Cyclo_Trial.svg);
+    }
+  }
+  /* line 4732, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan {
+    position: relative;
+    left: -9.6em;
+    top: 3.4em;
+  }
+  /* line 4736, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan div.pane-content {
+    font-size: 1.2em;
+    color: #cccccc;
+  }
+
+  /* line 4741, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 {
+    float: right;
+    font-family: "Cyclo Trial";
+  }
+  /* line 4743, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 div.pane-content p {
+    margin: 0 0 0px;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 4750, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top {
+    background-color: white;
+    background: linear-gradient(to top, #f2f2f2, white);
+    height: 6em;
+  }
+  /* line 4754, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top div.inside:after {
+    content: "interior";
+    position: absolute;
+    top: -0.5em;
+    right: 0;
+    opacity: 0.08;
+    font-size: 10.5em;
+    padding-right: 0.1em;
+  }
+
+  /* line 4764, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name {
+    padding-left: 30px;
+    float: left;
+  }
+  /* line 4767, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name div.pane-content {
+    font-size: 3.125em;
+    color: #809c13;
+  }
+  @font-face {
+    /* line 4767, ../scss/_overrides.scss */
+    div.panel-pane.pane-page-site-name div.pane-content {
+      font-family: "Cyclo Trial";
+      src: url(../bootstrap/assets/fonts/bootstrap/Cyclo_Trial/Cyclo_Trial.svg);
+    }
+  }
+  /* line 4776, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan {
+    position: relative;
+    left: -9.6em;
+    top: 3.4em;
+  }
+  /* line 4780, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan div.pane-content {
+    font-size: 1.2em;
+    color: #cccccc;
+  }
+
+  /* line 4785, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 {
+    float: right;
+    padding-right: 30px;
+    font-family: "Cyclo Trial";
+  }
+  /* line 4788, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 div.pane-content p {
+    margin: 0 0 0px;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 4795, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top {
+    background-color: white;
+    background: linear-gradient(to top, #f2f2f2, white);
+    height: 6em;
+  }
+  /* line 4799, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top div.inside:after {
+    content: "interior";
+    position: absolute;
+    top: -0.5em;
+    right: 0;
+    opacity: 0.08;
+    font-size: 10.5em;
+    padding-right: 0.1em;
+  }
+
+  /* line 4809, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name {
+    float: left;
+  }
+  /* line 4811, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name div.pane-content {
+    font-size: 3.125em;
+    color: #809c13;
+  }
+  @font-face {
+    /* line 4811, ../scss/_overrides.scss */
+    div.panel-pane.pane-page-site-name div.pane-content {
+      font-family: "Cyclo Trial";
+      src: url(../bootstrap/assets/fonts/bootstrap/Cyclo_Trial/Cyclo_Trial.svg);
+    }
+  }
+  /* line 4820, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan {
+    position: relative;
+    left: -9.6em;
+    top: 3.4em;
+  }
+  /* line 4824, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan div.pane-content {
+    font-size: 1.2em;
+    color: #cccccc;
+  }
+
+  /* line 4829, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 {
+    float: right;
+    padding-right: 30px;
+    font-family: "Cyclo Trial";
+  }
+  /* line 4832, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 div.pane-content p {
+    margin: 0 0 0px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 4839, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top {
+    background-color: white;
+    background: linear-gradient(to top, #f2f2f2, white);
+    height: 6em;
+  }
+  /* line 4843, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top div.inside:after {
+    content: "interior";
+    position: absolute;
+    top: -0.5em;
+    right: 0;
+    opacity: 0.08;
+    font-size: 10.5em;
+    padding-right: 0.1em;
+  }
+
+  /* line 4853, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name {
+    float: left;
+    padding-left: 30px;
+  }
+  /* line 4856, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name div.pane-content {
+    font-size: 3.125em;
+    color: #809c13;
+    font-weight: bold;
+  }
+  @font-face {
+    /* line 4856, ../scss/_overrides.scss */
+    div.panel-pane.pane-page-site-name div.pane-content {
+      font-family: "Cyclo Trial";
+      src: url(../bootstrap/assets/fonts/bootstrap/Cyclo_Trial/Cyclo_Trial.svg);
+    }
+  }
+  /* line 4866, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan {
+    position: relative;
+    left: -10.6em;
+    top: 3.4em;
+  }
+  /* line 4870, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan div.pane-content {
+    font-size: 1.2em;
+    color: #cccccc;
+  }
+
+  /* line 4875, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 {
+    float: right;
+    padding-right: 30px;
+    font-family: "Cyclo Trial";
+  }
+  /* line 4878, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 div.pane-content p {
+    margin: 0 0 0px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 4885, ../scss/_overrides.scss */
+  ul.menu.nav, ul.menu.nav li {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 4889, ../scss/_overrides.scss */
+  ul.menu.nav {
+    background: #f2f2f2;
+  }
+  /* line 4891, ../scss/_overrides.scss */
+  ul.menu.nav li {
+    display: inline-block;
+    text-align: center;
+  }
+  /* line 4894, ../scss/_overrides.scss */
+  ul.menu.nav li .active {
+    background: #809c13;
+    position: relative;
+    color: #fff;
+  }
+  /* line 4899, ../scss/_overrides.scss */
+  ul.menu.nav li .active:after {
+    content: '';
+    position: absolute;
+    left: 40%;
+    bottom: -1.4em;
+    border: 10px solid transparent;
+    border-top: 10px solid #809c13;
+  }
+  /* line 4908, ../scss/_overrides.scss */
+  ul.menu.nav a {
+    display: block;
+    padding: 5px 15px;
+    color: #4b4b4b;
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+  }
+}
+/**
+ * Menu styles.
+ */
+@media only screen and (max-width: 520px) {
+  /* line 4925, ../scss/_overrides.scss */
+  div.contextual-links-region.panel-pane.pane-block.pane-system-main-menu {
+    font-size: 1em;
+  }
+
+  /* line 4928, ../scss/_overrides.scss */
+  ul.menu.nav {
+    position: absolute;
+    margin-top: 0;
+    left: -10.4em;
+    width: 1em;
+    height: 100%;
+    z-index: 10;
+    overflow: visible;
+    opacity: 0.8;
+    transition: left 1s ease-out 0.5s;
+    -webkit-transition: left 1s ease-out 0.5s;
+  }
+
+  /* line 4940, ../scss/_overrides.scss */
+  li a {
+    width: 10em;
+    background-color: white;
+  }
+
+  /* line 4944, ../scss/_overrides.scss */
+  .active {
+    background: #809c13;
+    position: relative;
+    color: #fff;
+  }
+
+  /* line 4949, ../scss/_overrides.scss */
+  .active:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    border: 1.45em solid transparent;
+    border-left: 1em solid #809c13;
+  }
+
+  /* line 4957, ../scss/_overrides.scss */
+  ul.menu.nav:hover {
+    left: -0.5em;
+    opacity: 10;
+  }
+  /* line 4960, ../scss/_overrides.scss */
+  ul.menu.nav:hover li {
+    background-color: white;
+  }
+  /* line 4963, ../scss/_overrides.scss */
+  ul.menu.nav:hover a {
+    width: 10em;
+  }
+  /* line 4966, ../scss/_overrides.scss */
+  ul.menu.nav:hover .active {
+    background: #809c13;
+    position: relative;
+    color: #fff;
+  }
+  /* line 4971, ../scss/_overrides.scss */
+  ul.menu.nav:hover li.active::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10em;
+    border: 1.45em solid transparent;
+    border-left: 1em solid #809c13;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 4982, ../scss/_overrides.scss */
+  div.contextual-links-region.panel-pane.pane-block.pane-system-main-menu {
+    font-size: 1em;
+  }
+
+  /* line 4985, ../scss/_overrides.scss */
+  ul.menu.nav {
+    position: absolute;
+    margin-top: 0;
+    left: -10.4em;
+    width: 1em;
+    height: 100%;
+    z-index: 10;
+    overflow: visible;
+    opacity: 0.8;
+    transition: left 1s ease-out 0.5s;
+    -webkit-transition: left 1s ease-out 0.5s;
+  }
+
+  /* line 4997, ../scss/_overrides.scss */
+  li a {
+    width: 10em;
+    background-color: white;
+  }
+
+  /* line 5001, ../scss/_overrides.scss */
+  .active {
+    background: #809c13;
+    position: relative;
+    color: #fff;
+  }
+
+  /* line 5006, ../scss/_overrides.scss */
+  .active:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    border: 1.45em solid transparent;
+    border-left: 1em solid #809c13;
+  }
+
+  /* line 5014, ../scss/_overrides.scss */
+  ul.menu.nav:hover {
+    left: -0.5em;
+    opacity: 10;
+  }
+  /* line 5017, ../scss/_overrides.scss */
+  ul.menu.nav:hover li {
+    background-color: white;
+  }
+  /* line 5020, ../scss/_overrides.scss */
+  ul.menu.nav:hover a {
+    width: 10em;
+  }
+  /* line 5023, ../scss/_overrides.scss */
+  ul.menu.nav:hover .active {
+    background: #809c13;
+    position: relative;
+    color: #fff;
+  }
+  /* line 5028, ../scss/_overrides.scss */
+  ul.menu.nav:hover li.active::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10em;
+    border: 1.45em solid transparent;
+    border-left: 1em solid #809c13;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 5039, ../scss/_overrides.scss */
+  ul.menu.nav, ul.menu.nav li {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 5043, ../scss/_overrides.scss */
+  ul.menu.nav {
+    background: #f2f2f2;
+  }
+  /* line 5045, ../scss/_overrides.scss */
+  ul.menu.nav li {
+    display: inline-block;
+    text-align: center;
+  }
+  /* line 5048, ../scss/_overrides.scss */
+  ul.menu.nav li .active {
+    background: #809c13;
+    position: relative;
+    color: #fff;
+  }
+  /* line 5053, ../scss/_overrides.scss */
+  ul.menu.nav li .active:after {
+    content: '';
+    position: absolute;
+    left: 40%;
+    bottom: -1.4em;
+  }
+  /* line 5060, ../scss/_overrides.scss */
+  ul.menu.nav a {
+    display: block;
+    padding: 5px 15px;
+    color: #4b4b4b;
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 5074, ../scss/_overrides.scss */
+  ul.menu.nav, ul.menu.nav li {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 5078, ../scss/_overrides.scss */
+  ul.menu.nav {
+    background: #f2f2f2;
+  }
+  /* line 5080, ../scss/_overrides.scss */
+  ul.menu.nav li {
+    display: inline-block;
+    text-align: center;
+  }
+  /* line 5083, ../scss/_overrides.scss */
+  ul.menu.nav li .active {
+    background: #809c13;
+    position: relative;
+    color: #fff;
+  }
+  /* line 5088, ../scss/_overrides.scss */
+  ul.menu.nav li .active:after {
+    content: '';
+    position: absolute;
+    left: 40%;
+    bottom: -1.4em;
+    border: 10px solid transparent;
+    border-top: 10px solid #809c13;
+  }
+  /* line 5097, ../scss/_overrides.scss */
+  ul.menu.nav a {
+    display: block;
+    padding: 5px 15px;
+    color: #4b4b4b;
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+  }
+}
+/**
+ * Background image styles.
+ */
+/* line 5113, ../scss/_overrides.scss */
+div.panel-pane.pane-views.pane-background-image {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 520px) {
+  /* line 5119, ../scss/_overrides.scss */
+  div.panel-pane.pane-views.pane-background-image .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 5128, ../scss/_overrides.scss */
+  div.panel-pane.pane-views.pane-background-image .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: 30em;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 5137, ../scss/_overrides.scss */
+  div.panel-pane.pane-views.pane-background-image .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: 40em;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  /* line 5146, ../scss/_overrides.scss */
+  div.panel-pane.pane-views.pane-background-image .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: 45em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 5155, ../scss/_overrides.scss */
+  div.panel-pane.pane-views.pane-background-image .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}
+/**
+ * Slideshow styles.
+ */
+@media screen and (max-width: 767px) {
+  /* line 5167, ../scss/_overrides.scss */
+  div.views-field.views-field-field-slides-image div#slick-views-carausel-1 {
+    background-color: #d2ccce;
+    padding-top: 1em;
+  }
+  /* line 5171, ../scss/_overrides.scss */
+  div.views-field.views-field-field-slides-image img.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    max-height: 4em;
+    border: 4px solid white;
+  }
+}
+@media (max-width: 480px) {
+  /* line 5181, ../scss/_overrides.scss */
+  div#slick-views-carausel-10 {
+    background-color: #d2ccce;
+    padding-top: 1em;
+  }
+
+  /* line 5186, ../scss/_overrides.scss */
+  div.views-field.views-field-field-slides-image img.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    max-height: 3em;
+    border: 4px solid white;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  /* line 5196, ../scss/_overrides.scss */
+  div#slick-views-carausel-1 {
+    background-color: #d2ccce;
+    padding-top: 1em;
+  }
+
+  /* line 5201, ../scss/_overrides.scss */
+  div.views-field.views-field-field-slides-image img.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    max-height: 5em;
+    border: 4px solid white;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 5212, ../scss/_overrides.scss */
+  div.views-field.views-field-field-slides-image img.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    max-height: 8em;
+    border: 4px solid white;
+  }
+}
+@media only screen and (min-width: 1450px) {
+  /* line 5223, ../scss/_overrides.scss */
+  div.views-field.views-field-field-slides-image img.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    max-height: 10em;
+    border: 4px solid white;
+  }
+}
+/**
+ * Arrows styles.
+ */
+/* line 5235, ../scss/_overrides.scss */
+div#slick-views-carausel-1-slider {
+  width: 93%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 5240, ../scss/_overrides.scss */
+  button.slick-prev.slick-arrow,
+  button.slick-next.slick-arrow {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 5246, ../scss/_overrides.scss */
+  button.slick-prev.slick-arrow,
+  button.slick-next.slick-arrow {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 5252, ../scss/_overrides.scss */
+  .slick-arrow::before {
+    color: white;
+  }
+}
+/**
+ * Left, right below styles.
+ */
+@media screen and (max-width: 767px) {
+  /* line 5260, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first {
+    float: left;
+    width: 100%;
+    background-color: white;
+  }
+  /* line 5264, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.inside {
+    margin: 0;
+  }
+  /* line 5267, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+  }
+  /* line 5271, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services div.pane-content, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects div.pane-content {
+    display: table;
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    background-color: white;
+    margin-bottom: -18px;
+    margin-top: -10px;
+  }
+  /* line 5280, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services ul, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services h4.pane-title, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects ul, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects h4.pane-title {
+    width: calc(100% - 5px);
+    list-style: none;
+    padding: 0;
+    margin-left: 5px;
+  }
+  /* line 5286, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services h4.pane-title, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects h4.pane-title {
+    background-color: #244357;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+  }
+  /* line 5292, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services li a:before, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects li a:before {
+    content: "";
+    border-color: transparent #244357;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+  }
+  /* line 5304, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services li, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects li {
+    float: none;
+    vertical-align: middle;
+    text-align: justify;
+    background-color: #ececec;
+    margin: 5px 0 5px 15px;
+    margin-bottom: 3px;
+    border: 2px solid #e8e8e8;
+  }
+  /* line 5313, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services li a, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects li a {
+    width: 10em;
+    background-color: transparent;
+    text-transform: capitalize;
+    color: #244357;
+    vertical-align: middle;
+  }
+  /* line 5321, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-gallery {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+  }
+  /* line 5325, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-gallery h4.pane-title {
+    width: calc(100% - 5px);
+    list-style: none;
+    padding: 0;
+    margin-left: 5px;
+  }
+  /* line 5331, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-gallery h4.pane-title {
+    background-color: #244357;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+  }
+  /* line 5337, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-gallery div.pane-content {
+    margin: 5px;
+  }
+  /* line 5340, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-gallery div.views-row {
+    background-color: #ececec;
+    float: left;
+    width: 50%;
+    font-size: 0;
+    padding: 5px;
+  }
+  /* line 5346, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-gallery div.views-row img.img-responsive {
+    border: 4px solid whitesmoke;
+    margin: 5px;
+  }
+
+  /* line 5353, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last {
+    float: left;
+    width: 100%;
+    background-color: white;
+  }
+  /* line 5357, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-random-services-image {
+    min-width: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+  }
+  /* line 5362, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-random-services-image div.pane-content {
+    margin-left: -7px;
+    padding: 5px;
+  }
+  /* line 5367, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events {
+    margin-right: 5px;
+    width: 100%;
+    float: right;
+    background-color: white;
+  }
+  /* line 5372, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events div.pane-content {
+    display: table;
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    background-color: white;
+    margin-top: -10px;
+  }
+  /* line 5380, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events ul, div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events h4.pane-title {
+    width: calc(100% - 5px);
+    list-style: none;
+    padding: 0;
+    margin-left: 5px;
+  }
+  /* line 5386, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events h4.pane-title {
+    background-color: #a3a3a5;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+  }
+  /* line 5392, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events li a:before {
+    content: "••";
+    border-color: transparent #244357;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    position: relative;
+  }
+  /* line 5401, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events li {
+    float: none;
+    vertical-align: middle;
+    text-align: justify;
+    background-color: #ececec;
+    margin: 5px 0 5px 15px;
+    margin-bottom: 3px;
+    border: 2px solid #e8e8e8;
+  }
+  /* line 5410, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events li a {
+    width: 10em;
+    background-color: transparent;
+    text-transform: capitalize;
+    color: #a3a3a5;
+    vertical-align: middle;
+    text-decoration: underline;
+  }
+}
+/* line 5612, ../scss/_overrides.scss */
+.container {
+  width: 100%;
+  margin: 0;
+  padding-left: 1.5em;
+  padding-right: 0.83em;
+}
+
+/**
+ * Header styles.
+ */
+@media (max-width: 480px) {
+  /* line 5622, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top {
+    background-color: white;
+    background: linear-gradient(to top, #f2f2f2, white);
+    height: 6em;
+  }
+  /* line 5626, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top div.inside:after {
+    content: "interior";
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.08;
+    font-size: 4.5em;
+    padding-right: 0.3em;
+  }
+
+  /* line 5636, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name {
+    float: left;
+  }
+  /* line 5638, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name div.pane-content {
+    font-size: 2.5em;
+    color: #809c13;
+  }
+  @font-face {
+    /* line 5638, ../scss/_overrides.scss */
+    div.panel-pane.pane-page-site-name div.pane-content {
+      font-family: "Cyclo Trial";
+      src: url(../bootstrap/assets/fonts/bootstrap/Cyclo_Trial/Cyclo_Trial.svg);
+    }
+  }
+  /* line 5647, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan {
+    position: relative;
+    left: -7.5em;
+    top: 3em;
+  }
+  /* line 5651, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan div.pane-content {
+    font-size: 0.8em;
+    color: #cccccc;
+  }
+
+  /* line 5656, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 {
+    max-width: 50%;
+    float: right;
+    font-family: "Cyclo Trial";
+  }
+  /* line 5659, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 div.pane-content p {
+    margin: 0 0 0px;
+    font-size: 0.7em;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  /* line 5667, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top {
+    background-color: white;
+    background: linear-gradient(to top, #f2f2f2, white);
+    height: 6em;
+  }
+  /* line 5671, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top div.inside:after {
+    content: "interior";
+    position: absolute;
+    top: -0.1em;
+    right: 0;
+    opacity: 0.08;
+    font-size: 6em;
+    padding-right: 0.2em;
+  }
+
+  /* line 5681, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name {
+    float: left;
+  }
+  /* line 5683, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name div.pane-content {
+    font-size: 3.125em;
+    color: #809c13;
+  }
+  @font-face {
+    /* line 5683, ../scss/_overrides.scss */
+    div.panel-pane.pane-page-site-name div.pane-content {
+      font-family: "Cyclo Trial";
+      src: url(../bootstrap/assets/fonts/bootstrap/Cyclo_Trial/Cyclo_Trial.svg);
+    }
+  }
+  /* line 5692, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan {
+    position: relative;
+    left: -9.6em;
+    top: 3.4em;
+  }
+  /* line 5696, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan div.pane-content {
+    font-size: 1.2em;
+    color: #cccccc;
+  }
+
+  /* line 5701, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 {
+    float: right;
+    font-family: "Cyclo Trial";
+  }
+  /* line 5703, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 div.pane-content p {
+    margin: 0 0 0px;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 5710, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top {
+    background-color: white;
+    background: linear-gradient(to top, #f2f2f2, white);
+    height: 6em;
+  }
+  /* line 5714, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top div.inside:after {
+    content: "interior";
+    position: absolute;
+    top: -0.5em;
+    right: 0;
+    opacity: 0.08;
+    font-size: 10.5em;
+    padding-right: 0.1em;
+  }
+
+  /* line 5724, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name {
+    padding-left: 30px;
+    float: left;
+  }
+  /* line 5727, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name div.pane-content {
+    font-size: 3.125em;
+    color: #809c13;
+  }
+  @font-face {
+    /* line 5727, ../scss/_overrides.scss */
+    div.panel-pane.pane-page-site-name div.pane-content {
+      font-family: "Cyclo Trial";
+      src: url(../bootstrap/assets/fonts/bootstrap/Cyclo_Trial/Cyclo_Trial.svg);
+    }
+  }
+  /* line 5736, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan {
+    position: relative;
+    left: -9.6em;
+    top: 3.4em;
+  }
+  /* line 5740, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan div.pane-content {
+    font-size: 1.2em;
+    color: #cccccc;
+  }
+
+  /* line 5745, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 {
+    float: right;
+    padding-right: 30px;
+    font-family: "Cyclo Trial";
+  }
+  /* line 5748, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 div.pane-content p {
+    margin: 0 0 0px;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 5755, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top {
+    background-color: white;
+    background: linear-gradient(to top, #f2f2f2, white);
+    height: 6em;
+  }
+  /* line 5759, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top div.inside:after {
+    content: "interior";
+    position: absolute;
+    top: -0.5em;
+    right: 0;
+    opacity: 0.08;
+    font-size: 10.5em;
+    padding-right: 0.1em;
+  }
+
+  /* line 5769, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name {
+    float: left;
+  }
+  /* line 5771, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name div.pane-content {
+    font-size: 3.125em;
+    color: #809c13;
+  }
+  @font-face {
+    /* line 5771, ../scss/_overrides.scss */
+    div.panel-pane.pane-page-site-name div.pane-content {
+      font-family: "Cyclo Trial";
+      src: url(../bootstrap/assets/fonts/bootstrap/Cyclo_Trial/Cyclo_Trial.svg);
+    }
+  }
+  /* line 5780, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan {
+    position: relative;
+    left: -9.6em;
+    top: 3.4em;
+  }
+  /* line 5784, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan div.pane-content {
+    font-size: 1.2em;
+    color: #cccccc;
+  }
+
+  /* line 5789, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 {
+    float: right;
+    padding-right: 30px;
+    font-family: "Cyclo Trial";
+  }
+  /* line 5792, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 div.pane-content p {
+    margin: 0 0 0px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 5799, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top {
+    background-color: white;
+    background: linear-gradient(to top, #f2f2f2, white);
+    height: 6em;
+  }
+  /* line 5803, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-top div.inside:after {
+    content: "interior";
+    position: absolute;
+    top: -0.5em;
+    right: 0;
+    opacity: 0.08;
+    font-size: 10.5em;
+    padding-right: 0.1em;
+  }
+
+  /* line 5813, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name {
+    float: left;
+    padding-left: 30px;
+  }
+  /* line 5816, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-site-name div.pane-content {
+    font-size: 3.125em;
+    color: #809c13;
+    font-weight: bold;
+  }
+  @font-face {
+    /* line 5816, ../scss/_overrides.scss */
+    div.panel-pane.pane-page-site-name div.pane-content {
+      font-family: "Cyclo Trial";
+      src: url(../bootstrap/assets/fonts/bootstrap/Cyclo_Trial/Cyclo_Trial.svg);
+    }
+  }
+  /* line 5826, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan {
+    position: relative;
+    left: -10.6em;
+    top: 3.4em;
+  }
+  /* line 5830, ../scss/_overrides.scss */
+  div.panel-pane.pane-page-slogan div.pane-content {
+    font-size: 1.2em;
+    color: #cccccc;
+  }
+
+  /* line 5835, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 {
+    float: right;
+    padding-right: 30px;
+    font-family: "Cyclo Trial";
+  }
+  /* line 5838, ../scss/_overrides.scss */
+  div.panel-pane.pane-block.pane-block-1 div.pane-content p {
+    margin: 0 0 0px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 5845, ../scss/_overrides.scss */
+  ul.menu.nav, ul.menu.nav li {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 5849, ../scss/_overrides.scss */
+  ul.menu.nav {
+    background: #f2f2f2;
+  }
+  /* line 5851, ../scss/_overrides.scss */
+  ul.menu.nav li {
+    display: inline-block;
+    text-align: center;
+  }
+  /* line 5854, ../scss/_overrides.scss */
+  ul.menu.nav li .active {
+    background: #809c13;
+    position: relative;
+    color: #fff;
+  }
+  /* line 5859, ../scss/_overrides.scss */
+  ul.menu.nav li .active:after {
+    content: '';
+    position: absolute;
+    left: 40%;
+    bottom: -1.4em;
+    border: 10px solid transparent;
+    border-top: 10px solid #809c13;
+  }
+  /* line 5868, ../scss/_overrides.scss */
+  ul.menu.nav a {
+    display: block;
+    padding: 5px 15px;
+    color: #4b4b4b;
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+  }
+}
+/**
+ * Menu styles.
+ */
+@media only screen and (max-width: 520px) {
+  /* line 5885, ../scss/_overrides.scss */
+  div.contextual-links-region.panel-pane.pane-block.pane-system-main-menu {
+    font-size: 1em;
+  }
+
+  /* line 5888, ../scss/_overrides.scss */
+  ul.menu.nav {
+    position: absolute;
+    margin-top: 0;
+    left: -10.4em;
+    width: 1em;
+    height: 100%;
+    z-index: 10;
+    overflow: visible;
+    opacity: 0.8;
+    transition: left 1s ease-out 0.5s;
+    -webkit-transition: left 1s ease-out 0.5s;
+  }
+
+  /* line 5900, ../scss/_overrides.scss */
+  li a {
+    width: 10em;
+    background-color: white;
+  }
+
+  /* line 5904, ../scss/_overrides.scss */
+  .active {
+    background: #809c13;
+    position: relative;
+    color: #fff;
+  }
+
+  /* line 5909, ../scss/_overrides.scss */
+  .active:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    border: 1.45em solid transparent;
+    border-left: 1em solid #809c13;
+  }
+
+  /* line 5917, ../scss/_overrides.scss */
+  ul.menu.nav:hover {
+    left: -0.5em;
+    opacity: 10;
+  }
+  /* line 5920, ../scss/_overrides.scss */
+  ul.menu.nav:hover li {
+    background-color: white;
+  }
+  /* line 5923, ../scss/_overrides.scss */
+  ul.menu.nav:hover a {
+    width: 10em;
+  }
+  /* line 5926, ../scss/_overrides.scss */
+  ul.menu.nav:hover .active {
+    background: #809c13;
+    position: relative;
+    color: #fff;
+  }
+  /* line 5931, ../scss/_overrides.scss */
+  ul.menu.nav:hover li.active::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10em;
+    border: 1.45em solid transparent;
+    border-left: 1em solid #809c13;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 5942, ../scss/_overrides.scss */
+  div.contextual-links-region.panel-pane.pane-block.pane-system-main-menu {
+    font-size: 1em;
+  }
+
+  /* line 5945, ../scss/_overrides.scss */
+  ul.menu.nav {
+    position: absolute;
+    margin-top: 0;
+    left: -10.4em;
+    width: 1em;
+    height: 100%;
+    z-index: 10;
+    overflow: visible;
+    opacity: 0.8;
+    transition: left 1s ease-out 0.5s;
+    -webkit-transition: left 1s ease-out 0.5s;
+  }
+
+  /* line 5957, ../scss/_overrides.scss */
+  li a {
+    width: 10em;
+    background-color: white;
+  }
+
+  /* line 5961, ../scss/_overrides.scss */
+  .active {
+    background: #809c13;
+    position: relative;
+    color: #fff;
+  }
+
+  /* line 5966, ../scss/_overrides.scss */
+  .active:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    border: 1.45em solid transparent;
+    border-left: 1em solid #809c13;
+  }
+
+  /* line 5974, ../scss/_overrides.scss */
+  ul.menu.nav:hover {
+    left: -0.5em;
+    opacity: 10;
+  }
+  /* line 5977, ../scss/_overrides.scss */
+  ul.menu.nav:hover li {
+    background-color: white;
+  }
+  /* line 5980, ../scss/_overrides.scss */
+  ul.menu.nav:hover a {
+    width: 10em;
+  }
+  /* line 5983, ../scss/_overrides.scss */
+  ul.menu.nav:hover .active {
+    background: #809c13;
+    position: relative;
+    color: #fff;
+  }
+  /* line 5988, ../scss/_overrides.scss */
+  ul.menu.nav:hover li.active::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10em;
+    border: 1.45em solid transparent;
+    border-left: 1em solid #809c13;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 5999, ../scss/_overrides.scss */
+  ul.menu.nav, ul.menu.nav li {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 6003, ../scss/_overrides.scss */
+  ul.menu.nav {
+    background: #f2f2f2;
+  }
+  /* line 6005, ../scss/_overrides.scss */
+  ul.menu.nav li {
+    display: inline-block;
+    text-align: center;
+  }
+  /* line 6008, ../scss/_overrides.scss */
+  ul.menu.nav li .active {
+    background: #809c13;
+    position: relative;
+    color: #fff;
+  }
+  /* line 6013, ../scss/_overrides.scss */
+  ul.menu.nav li .active:after {
+    content: '';
+    position: absolute;
+    left: 40%;
+    bottom: -1.4em;
+  }
+  /* line 6020, ../scss/_overrides.scss */
+  ul.menu.nav a {
+    display: block;
+    padding: 5px 15px;
+    color: #4b4b4b;
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 6034, ../scss/_overrides.scss */
+  ul.menu.nav, ul.menu.nav li {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 6038, ../scss/_overrides.scss */
+  ul.menu.nav {
+    background: #f2f2f2;
+  }
+  /* line 6040, ../scss/_overrides.scss */
+  ul.menu.nav li {
+    display: inline-block;
+    text-align: center;
+  }
+  /* line 6043, ../scss/_overrides.scss */
+  ul.menu.nav li .active {
+    background: #809c13;
+    position: relative;
+    color: #fff;
+  }
+  /* line 6048, ../scss/_overrides.scss */
+  ul.menu.nav li .active:after {
+    content: '';
+    position: absolute;
+    left: 40%;
+    bottom: -1.4em;
+    border: 10px solid transparent;
+    border-top: 10px solid #809c13;
+  }
+  /* line 6057, ../scss/_overrides.scss */
+  ul.menu.nav a {
+    display: block;
+    padding: 5px 15px;
+    color: #4b4b4b;
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+  }
+}
+/**
+ * Background image styles.
+ */
+/* line 6073, ../scss/_overrides.scss */
+div.panel-pane.pane-views.pane-background-image {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 520px) {
+  /* line 6079, ../scss/_overrides.scss */
+  div.panel-pane.pane-views.pane-background-image .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 6088, ../scss/_overrides.scss */
+  div.panel-pane.pane-views.pane-background-image .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: 30em;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 6097, ../scss/_overrides.scss */
+  div.panel-pane.pane-views.pane-background-image .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: 40em;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  /* line 6106, ../scss/_overrides.scss */
+  div.panel-pane.pane-views.pane-background-image .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: 45em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 6115, ../scss/_overrides.scss */
+  div.panel-pane.pane-views.pane-background-image .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}
+/**
+ * Slideshow styles.
+ */
+@media screen and (max-width: 767px) {
+  /* line 6127, ../scss/_overrides.scss */
+  div.views-field.views-field-field-slides-image div#slick-views-carausel-1 {
+    background-color: #d2ccce;
+    padding-top: 1em;
+  }
+  /* line 6131, ../scss/_overrides.scss */
+  div.views-field.views-field-field-slides-image img.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    max-height: 4em;
+    border: 4px solid white;
+  }
+}
+@media (max-width: 480px) {
+  /* line 6141, ../scss/_overrides.scss */
+  div#slick-views-carausel-10 {
+    background-color: #d2ccce;
+    padding-top: 1em;
+  }
+
+  /* line 6146, ../scss/_overrides.scss */
+  div.views-field.views-field-field-slides-image img.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    max-height: 3em;
+    border: 4px solid white;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  /* line 6156, ../scss/_overrides.scss */
+  div#slick-views-carausel-1 {
+    background-color: #d2ccce;
+    padding-top: 1em;
+  }
+
+  /* line 6161, ../scss/_overrides.scss */
+  div.views-field.views-field-field-slides-image img.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    max-height: 5em;
+    border: 4px solid white;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 6172, ../scss/_overrides.scss */
+  div.views-field.views-field-field-slides-image img.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    max-height: 8em;
+    border: 4px solid white;
+  }
+}
+@media only screen and (min-width: 1450px) {
+  /* line 6183, ../scss/_overrides.scss */
+  div.views-field.views-field-field-slides-image img.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    max-height: 10em;
+    border: 4px solid white;
+  }
+}
+/**
+ * Arrows styles.
+ */
+/* line 6195, ../scss/_overrides.scss */
+div#slick-views-carausel-1-slider {
+  width: 93%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 6200, ../scss/_overrides.scss */
+  button.slick-prev.slick-arrow,
+  button.slick-next.slick-arrow {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 6206, ../scss/_overrides.scss */
+  button.slick-prev.slick-arrow,
+  button.slick-next.slick-arrow {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 6212, ../scss/_overrides.scss */
+  .slick-arrow::before {
+    color: white;
+  }
+}
+/**
+ * Left, right below styles.
+ */
+@media screen and (max-width: 767px) {
+  /* line 6220, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first {
+    float: left;
+    width: 100%;
+    background-color: white;
+  }
+  /* line 6224, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.inside {
+    margin: 0;
+  }
+  /* line 6227, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+  }
+  /* line 6231, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services div.pane-content, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects div.pane-content {
+    display: table;
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    background-color: white;
+    margin-bottom: -18px;
+    margin-top: -10px;
+  }
+  /* line 6240, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services ul, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services h4.pane-title, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects ul, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects h4.pane-title {
+    width: calc(100% - 5px);
+    list-style: none;
+    padding: 0;
+    margin-left: 5px;
+  }
+  /* line 6246, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services h4.pane-title, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects h4.pane-title {
+    background-color: #244357;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+  }
+  /* line 6252, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services li a:before, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects li a:before {
+    content: "";
+    border-color: transparent #244357;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+  }
+  /* line 6264, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services li, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects li {
+    float: none;
+    vertical-align: middle;
+    text-align: justify;
+    background-color: #ececec;
+    margin: 5px 0 5px 15px;
+    margin-bottom: 3px;
+    border: 2px solid #e8e8e8;
+  }
+  /* line 6273, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-services li a, div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-projects li a {
+    width: 10em;
+    background-color: transparent;
+    text-transform: capitalize;
+    color: #244357;
+    vertical-align: middle;
+  }
+  /* line 6281, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-gallery {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+  }
+  /* line 6285, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-gallery h4.pane-title {
+    width: calc(100% - 5px);
+    list-style: none;
+    padding: 0;
+    margin-left: 5px;
+  }
+  /* line 6291, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-gallery h4.pane-title {
+    background-color: #244357;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+  }
+  /* line 6297, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-gallery div.pane-content {
+    margin: 5px;
+  }
+  /* line 6300, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-gallery div.views-row {
+    background-color: #ececec;
+    float: left;
+    width: 50%;
+    font-size: 0;
+    padding: 5px;
+  }
+  /* line 6306, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-first div.panel-pane.pane-views.pane-our-gallery div.views-row img.img-responsive {
+    border: 4px solid whitesmoke;
+    margin: 5px;
+  }
+
+  /* line 6313, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last {
+    float: left;
+    width: 100%;
+    background-color: white;
+  }
+  /* line 6317, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-random-services-image {
+    min-width: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+  }
+  /* line 6322, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-random-services-image div.pane-content {
+    margin-left: -7px;
+    padding: 5px;
+  }
+  /* line 6327, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events {
+    margin-right: 5px;
+    width: 100%;
+    float: right;
+    background-color: white;
+  }
+  /* line 6332, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events div.pane-content {
+    display: table;
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    background-color: white;
+    margin-top: -10px;
+  }
+  /* line 6340, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events ul, div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events h4.pane-title {
+    width: calc(100% - 5px);
+    list-style: none;
+    padding: 0;
+    margin-left: 5px;
+  }
+  /* line 6346, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events h4.pane-title {
+    background-color: #a3a3a5;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+  }
+  /* line 6352, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events li a:before {
+    content: "••";
+    border-color: transparent #244357;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    position: relative;
+  }
+  /* line 6361, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events li {
+    float: none;
+    vertical-align: middle;
+    text-align: justify;
+    background-color: #ececec;
+    margin: 5px 0 5px 15px;
+    margin-bottom: 3px;
+    border: 2px solid #e8e8e8;
+  }
+  /* line 6370, ../scss/_overrides.scss */
+  div.panel-panel.panel-col-last div.panel-pane.pane-views.pane-news-events li a {
+    width: 10em;
+    background-color: transparent;
+    text-transform: capitalize;
+    color: #a3a3a5;
+    vertical-align: middle;
+    text-decoration: underline;
   }
 }

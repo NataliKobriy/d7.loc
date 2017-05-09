@@ -1,0 +1,4 @@
+name = Mytheming  module
+description = An example module theming.
+core = 7.x
+files[] = mytheming.module

@@ -1,0 +1,102 @@
+<?php
+function my_forms_menu(){
+    $items = array();
+    $items['contacts'] = array(
+
+        'title' => 'Form API',
+        'page callback' => 'drupal_get_form',
+        'page arguments' => array('my_forms_form'),
+        'access callback' => TRUE
+
+    );
+
+    return $items;
+}
+
+function my_forms_page() {
+    return t('Page for form');
+}
+
+function my_forms_form($form, &$form_state) {
+
+    $form['firstname'] = array(
+        '#type'  => 'textfield',
+        '#title' => t('Firstname'),
+    );
+
+    $form['surname'] = array(
+        '#type'  => 'textfield',
+        '#title' => t('Surname'),
+    );
+
+    $form['nik'] = array(
+        '#type'  => 'textfield',
+        '#title' => t('Nik'),
+        '#required'=> TRUE,
+    );
+
+    $form['email'] = array(
+        '#type' => 'textfield',
+        '#title' => t('E-mail address'),
+        '#maxlength' => 255,
+        '#required' => TRUE,
+    );
+
+    $form['phone'] = array(
+        '#type' => 'textfield',
+        '#title' => t('Phone number (8 0XX XX XX XXX)'),
+        '#maxlength' => 11,
+        '#minlength' => 11,
+    );
+
+    $form['submit'] = array(
+        '#type'  => 'submit',
+        '#value' => t('Submit'),
+    );
+
+    return $form;
+}
+
+function my_forms_form_submit($form, &$form_state){
+    $output = '';
+    if (!empty($form_state['values']['firstname'])) {
+        $output = 'Firstname - ' .$form_state['values']['firstname'] .'<br>';
+    }
+    if (!empty($form_state['values']['firstname'])) {
+        $output .= 'Surname - ' .$form_state['values']['surname'] .'<br>';
+    }
+    $output .= 'Nik - ' .$form_state['values']['nik'] .'<br>';
+    $output .= 'E-mail - ' .$form_state['values']['email'] .'<br>';
+    drupal_set_message($output);
+}
+
+function my_forms_form_validate($form, &$form_state){
+    if(check_for_number($form_state['values']['firstname'])){
+        form_set_error('firstname', t('Field "' . $form['firstname']['#title'] . '" can not contain numbers'));
+    }
+    if(check_for_number($form_state['values']['surname'])){
+        form_set_error('surname', t('Field "' . $form['surname']['#title'] . '" can not contain numbers'));
+    }
+    if (!valid_email_address($form_state['values']['email'])) {
+        form_set_error('email', t('You must enter a valid e-mail address.'));
+    }
+    if (!preg_match("/^[0-9]{3}-[0-9]{4}-[0-9]{4}$/", $form_state['values']['phone'])) {
+        form_set_error('phone', t('Phone number must contains ten digits.'));
+    }
+//    if (!is_integer($form_state['values']['phone'])) {
+//        form_set_error('phone', t('Phone number must contains digits.'));
+//    }
+}
+
+function check_for_number($str)
+{
+    $lenght = strlen($str);
+    for($i=0;$i<$lenght;)
+    {
+        if (is_numeric($str[$i++]))
+        {
+            return true;
+        }
+    }
+    return false;
+}
